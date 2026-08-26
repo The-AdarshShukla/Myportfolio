@@ -1,0 +1,126 @@
+@import "/src/styles/extend.scss";
+
+div.article-tech-stack-items {
+    --item-gap: 20px;
+    --padding: 15px 10px;
+    --avatar-size: 120px;
+
+    @include media-breakpoint-down(lg) {
+        --item-gap: 15px;
+        --avatar-size: 55px;
+    }
+    @include media-breakpoint-down(sm) {
+        --avatar-size: 45px; // Mobile screen ke liye
+    }
+}
+
+/** ---------------- CATEGORY FILTERS ---------------- */
+div.article-tech-stack-categories,
+div.tech-stack-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 25px;
+    width: 100%;
+
+    button, 
+    .tech-stack-category-btn {
+        flex: 1;
+        min-width: 120px;
+        padding: 10px 16px;
+        text-align: center;
+        background-color: var(--theme-boards-background);
+        border: 1px solid rgba(255, 255, 255, 0.04);
+        border-radius: $standard-border-radius;
+        color: var(--theme-primary, #ffffff);
+        font-size: 0.9rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease;
+
+        &.active, &:hover {
+            background: linear-gradient(135deg, rgba(0, 198, 255, 0.2), rgba(0, 114, 255, 0.2));
+            border-color: rgba(0, 198, 255, 0.4);
+            color: #00c6ff;
+        }
+    }
+}
+
+/** ---------------- BASE GRID ---------------- */
+div.article-tech-stack-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--item-gap);
+
+    @include media-breakpoint-down(lg) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include media-breakpoint-down(sm) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+div.article-tech-stack-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+
+    background-color: var(--theme-boards-background);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: $standard-border-radius;
+
+    padding: var(--padding);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+
+    &:hover {
+        border-color: rgba(0, 198, 255, 0.3);
+        transform: translateY(-3px);
+    }
+}
+
+div.article-tech-stack-item-avatar {
+    width: var(--avatar-size);
+    height: var(--avatar-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    
+    /* Background remove karne ke liye yeh add karein */
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+
+    /* AvatarView ke andar bani child divs/icons par bhi apply karne ke liye */
+    *, & > * {
+        background: transparent !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+    img, svg {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        background: transparent !important;
+    }
+}
+
+div.article-tech-stack-item-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    span.article-tech-stack-item-name {
+        font-weight: 500;
+        font-size: 0.95rem;
+        color: var(--theme-primary, #ffffff);
+        text-align: center;
+        margin-bottom: 0;
+    }
+}

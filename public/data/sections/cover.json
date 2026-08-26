@@ -1,0 +1,690 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Adarsh Shukla!}}"
+            },
+            "es": {
+                "title_short": "¡Saludos!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Adarsh Shukla!}}"
+            },
+            "hi": {
+                "title_short": "स्वागत है!",
+                "title_short_nav": "मेरे बारे में",
+                "title_long_prefix": "नमस्ते...",
+                "title_long": "मैं {{आदर्श शुक्ला}} हूँ!"
+            },
+            "ur": {
+                "title_short": "خوش آمدید!",
+                "title_short_nav": "میرے بارے میں",
+                "title_long_prefix": "ہیلو...",
+                "title_long": "میں {{آदर्श شکلا}} ہوں!"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Noida – India",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "shuklaadarsh319@gmail.com",
+                    "link": {
+                        "href": "shuklaadarsh319@gmail.com",
+                        "tooltipString": "email_me"
+                    },
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "Linkedin",
+                    "link": {
+                        "href": "https://www.linkedin.com/in/theadarshshukla/",
+                        "tooltipString": "see_on_Linkedin"
+                    },
+                    "faIcon": "fa-brands fa-linkedin"
+                },
+                {
+                    "id": 4,
+                    "label": "Github",
+                    "link": {
+                        "href": "https://github.com/The-adarshshukla",
+                        "tooltipString": "see_on_github"
+                    },
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {
+                    "title": "{{A little bit}} about me..."
+                },
+                "es": {
+                    "title": "{{Un poco}} sobre mí..."
+                },
+                "hi": {
+                    "title": "मेरे बारे में {{कुछ बातें}}..."
+                },
+                "ur": {
+                    "title": "میرے بارے میں {{کچھ باتیں}}..."
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/a.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>Hi, I'm <b>{{ADARSH SHUKLA}}</b>, a Data Analyst and Computer & Data Science student at Maharishi University of Information Technology (MUIT).</p><p>I bridge the gap between technical logic and creative storytelling. While my core expertise lies in data analytics, Python, SQL, Power BI, and predictive modeling using Pandas and NumPy, I also embrace my creative side as a Hindi poet and writer.</p><p>Whether I am building data-driven dashboards, solving complex DSA problems, SQL queries, crafting digital platforms or writing poetry, I look forward to [[collaborating with you!]]</p>"
+                        },
+                        "es": {
+                            "text": "<p>Hola, soy <b>{{ADARSH SHUKLA}}</b>, analista de datos y estudiante de Informática y Ciencia de Datos en la Universidad Maharishi de Tecnología de la Información (MUIT).</p><p>Combino la analítica de datos, Python, SQL y Power BI con mi faceta creativa como poeta y escritor en hindi para convertir números en estrategias claras.</p><p>¡Espero con interés [[colaborar contigo!]]</p>"
+                        },
+                        "hi": {
+                            "text": "<p>नमस्ते, मैं <b>{{आदर्श शुक्ला}}</b> हूँ, एक डेटा एनालिस्ट और महर्षि यूनिवर्सिटी ऑफ़ इंफॉर्मेशन टेक्नोलॉजी (MUIT) में कंप्यूटर और डेटा साइंस का छात्र।</p><p>मैं पाइथन, SQL, पावर BI और डेटा एनालिटिक्स के जरिए बिजनेस इनसाइट्स निकालने के साथ-साथ एक हिंदी कवि और लेखक के रूप में अपनी रचनात्मकता को भी जोड़ता हूँ।</p><p>मैं आपके साथ [[सहयोग करने के लिए]] उत्सुक हूँ!</p>"
+                        },
+                        "ur": {
+                            "text": "<p>ہیلو، میں <b>{{آدرس شکلا}}</b> ہوں، ایک ڈیٹا تجزیہ کار اور مہارشی یونیورسٹی آف انفارمیشن ٹیکنالوجی (MUIT) میں کمپیوٹر اور ڈیٹا سائنس کا طالب علم۔</p><p>میں پائیتھون، SQL، پاور بی آئی اور ڈیٹا اینالیٹکس کے ذریعے کاروباری بصیرت تلاش کرنے کے ساتھ ساتھ ایک ہندی شاعر اور لکھاری کی تخلیقیت کو بھی جوڑتا ہوں۔</p><p>میں آپ کے ساتھ [[اشتراک کرنے کے لیے]] منتظر ہوں!</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleCertifications",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "enable_slider": true,
+                "autoplay": true,
+                "autoplay_speed": 3000,
+                "show_category_filter": true,
+                "layout_variant": "grid-modern"
+            },
+            "locales": {
+                "en": {
+                    "title": "My {{Certifications}}",
+                    "subtitle": "Professional credentials, licenses, and verified technical achievements."
+                },
+                "es": {
+                    "title": "Mis {{Certificaciones}}",
+                    "subtitle": "Credenciales profesionales, licencias y logros técnicos verificados."
+                },
+                "hi": {
+                    "title": "मेरे {{सर्टिफिकेट्स}}",
+                    "subtitle": "पेशेवर क्रेडेंशियल, लाइसेंस और सत्यापित तकनीकी उपलब्धियां।"
+                },
+                "ur": {
+                    "title": "میرے {{سرٹیফিکیٹس}}",
+                    "subtitle": "پیشہ ورانہ اسناد، لائسنس اور تصدیق شدہ تکنیکی کامیابیاں۔"
+                }
+            },
+            "categories": [
+                {
+                    "id": "all",
+                    "label": {
+                        "en": "All",
+                        "es": "Todos",
+                        "hi": "सभी",
+                        "ur": "تمام"
+                    }
+                },
+                {
+                    "id": "cloud",
+                    "label": {
+                        "en": "Cloud & DevOps",
+                        "es": "Cloud y DevOps",
+                        "hi": "क्लाउड और डेवऑप्स",
+                        "ur": "کلاؤڈ اور دیو اوپس"
+                    }
+                },
+                {
+                    "id": "dev",
+                    "label": {
+                        "en": "Development",
+                        "es": "Desarrollo",
+                        "hi": "डेवलपमेंट",
+                        "ur": "ڈویلپمنٹ"
+                    }
+                },
+                {
+                    "id": "data",
+                    "label": {
+                        "en": "Data & AI",
+                        "es": "Datos y IA",
+                        "hi": "डेटा और एआई",
+                        "ur": "ڈیٹا اور اے آئی"
+                    }
+                }
+            ],
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "Data Science",
+                    "label": "Data Science With Python",
+                    "link": {
+                        "href": "https://verify.letsupgrade.in/certificate/LUEDSFEB125786",
+                        "tooltipString": "verify_certificate"
+                    },
+                    "img": "images/certificates/letsupgrad.png",
+                    "faIcon": "fa-brands fa-aws",
+                    "badgeColor": "#FF9900",
+                    "locales": {
+                        "en": {
+                            "title": "Issued by Letsupgrade",
+                            "text": "Issued by Letsupgrade • Validated Data Science with Python."
+                        },
+                        "es": {
+                            "title": "Arquitecto de Soluciones AWS",
+                            "text": "Emitido por Amazon Web Services • Experiencia en arquitectura cloud."
+                        },
+                        "hi": {
+                            "title": "AWS सॉल्यूशंस आर्किटेक्ट",
+                            "text": "Amazon Web Services द्वारा जारी • क्लाउड आर्किटेक्चर विशेषज्ञता।"
+                        },
+                        "ur": {
+                            "title": "AWS سلوشنز آرکیটেক্ট",
+                            "text": "Amazon Web Services کی طرف سے جاری کردہ۔"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "SQL",
+                    "label": "SQL (Advanced) Certificate",
+                    "link": {
+                        "href": "https://www.hackerrank.com/certificates/1fd0a562a2fc",
+                        "tooltipString": "verify_certificate"
+                    },
+                    "img": "images/certificates/hackerrank.png",
+                    "faIcon": "fa-brands fa-google",
+                    "badgeColor": "#4285F4",
+                    "locales": {
+                        "en": {
+                            "title": "Issued by Hackerrank",
+                            "text": "Issued by Hackerrank • SQL (Advanced) Skill Certification."
+                        },
+                        "es": {
+                            "title": "Desarrollador Profesional GCP",
+                            "text": "Emitido por Google Cloud • Creación de apps escalables."
+                        },
+                        "hi": {
+                            "title": "GCP प्रोफेशनल डेवलपर",
+                            "text": "Google Cloud द्वारा जारी • स्केलेबल क्लाउड ऐप्स का निर्माण।"
+                        },
+                        "ur": {
+                            "title": "GCP پروفیشنل ڈویلپر",
+                            "text": "Google Cloud کی طرف سے جاری کردہ۔"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "IBM",
+                    "label": "Python 101 for Data Science",
+                    "link": {
+                        "href": "https://courses.srmuh.skillsnetwork.site/certificates/ef6cc56308d34513938110333f1c8751",
+                        "tooltipString": "verify_certificate"
+                    },
+                    "img": "images/certificates/ibm.png",
+                    "faIcon": "fa-brands fa-meta",
+                    "badgeColor": "#0081FB",
+                    "locales": {
+                        "en": {
+                            "title": "Issued by SRM University",
+                            "text": "Issued by SRM University • Powered by IBM Developer Skill Network."
+                        },
+                        "es": {
+                            "title": "Desarrollador Backend Meta",
+                            "text": "Emitido por Meta • Python avanzado, APIs y Django."
+                        },
+                        "hi": {
+                            "title": "मेटा बैकएंड डेवलपर",
+                            "text": "Meta द्वारा जारी • एडवांस्ड पाइथन, एपीआई और डjango फ्रेमवर्क।"
+                        },
+                        "ur": {
+                            "title": "میٹا بیک اینڈ ڈویلپر",
+                            "text": "Meta کی طرف سے جاری کردہ۔"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "AI",
+                    "label": "AI and Cybersecurity Awareeness ",
+                    "link": {
+                        "href": "https://www.tcsion.com/per/g01/pub/1016/LX/batch-participants-report/1016/277082/Adarsh_Shukla_5207696.pdf",
+                        "tooltipString": "verify_certificate"
+                    },
+                    "img": "images/certificates/tcsiqn.png",
+                    "faIcon": "fa-solid fa-dharmachakra",
+                    "badgeColor": "#326CE5",
+                    "locales": {
+                        "en": {
+                            "title": "MPIT-CoE with TCS Foundation",
+                            "text": "Issued by TCS Foundation • AI and Cybersecurity Awareness, offered by 'AI for ALL'. "
+                        },
+                        "es": {
+                            "title": "Certificación KCNA",
+                            "text": "Emitido por CNCF • Orquestación de contenedores y Kubernetes."
+                        },
+                        "hi": {
+                            "title": "KCNA सर्टिफ़िकेशन",
+                            "text": "CNCF द्वारा जारी • कंटेनर ओरकेस्ट्रेशन और कुबेरनेट्स।"
+                        },
+                        "ur": {
+                            "title": "KCNA سرٹیফিیکیشن",
+                            "text": "CNCF کی طرف سے جاری کردہ۔"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "AI tool",
+                    "label": "AI Tools Workshop",
+                    "link": {
+                        "href": "https://certx.in/certificate/0270772f-3809-4400-b29b-1e1c61cd0997544662",
+                        "tooltipString": "verify_certificate"
+                    },
+                    "img": "images/certificates/b10x.png",
+                    "faIcon": "fa-brands fa-js",
+                    "badgeColor": "#F7DF1E",
+                    "locales": {
+                        "en": {
+                            "title": "Issued by be10X",
+                            "text": "Issued by be10X • AI tool and ChatGPT workshop."
+                        },
+                        "es": {
+                            "title": "Especialista en JavaScript Avanzado",
+                            "text": "Emitido por Udemy • Patrones modernos de JS y TypeScript."
+                        },
+                        "hi": {
+                            "title": "एडवांस्ड जावास्क्रिप्ट स्पेशलिस्ट",
+                            "text": "Udemy द्वारा जारी • मॉडर्न JS पैटर्न और टाइपस्क्रिप्ट।"
+                        },
+                        "ur": {
+                            "title": "ایڈوانسڈ جاوا اسکرپٹ اسپیشلسٹ",
+                            "text": "Udemy کی طرف سے جاری کردہ۔"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "java",
+                    "label": "MUIT AIML - 2024 Batch",
+                    "link": {
+                        "href": "https://upgradcampus.verification.givemycertificate.com/v/0e80088f-833a-422b-bace-351f60b6b7a3",
+                        "tooltipString": "verify_certificate"
+                    },
+                    "img": "images/certificates/upgrad.png",
+                    "faIcon": "fa-solid fa-chart-pie",
+                    "badgeColor": "#F2C811",
+                    "locales": {
+                        "en": {
+                            "title": "Issued by Upgrad Campus",
+                            "text": "Issued by Upgrad Campus • Concepts of OOPs in Java."
+                        },
+                        "es": {
+                            "title": "Analista de Datos Power BI",
+                            "text": "Emitido por Microsoft • Visualización de datos y consultas DAX."
+                        },
+                        "hi": {
+                            "title": "पावर बीआई डेटा विश्लेषक",
+                            "text": "Microsoft द्वारा जारी • डेटा विजुअलाइजेशन और DAX महारत।"
+                        },
+                        "ur": {
+                            "title": "پاور بی آئی ڈیٹا تجزیہ کار",
+                            "text": "Microsoft کی طرف سے جاری کردہ۔"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "dev",
+                    "label": "DEV WITH AI",
+                    "link": {
+                        "href": "https://unstop.com/certificate-preview/3fd7d87f-40dc-4fbd-a2dd-6c7c8c081f26",
+                        "tooltipString": "verify_certificate"
+                    },
+                    "img": "images/certificates/unstop.png",
+                    "faIcon": "fa-solid fa-paper-plane",
+                    "badgeColor": "#FF6C37",
+                    "locales": {
+                        "en": {
+                            "title": "Issued by unstop",
+                            "text": "Issued by unstop • Participated as Teamx` BRO CODER in DEV WITH AI."
+                        },
+                        "es": {
+                            "title": "Experto en API de Postman",
+                            "text": "Emitido por Postman • Diseño, prueba y automatización de APIs."
+                        },
+                        "hi": {
+                            "title": "पोस्टमैन एपीआई एक्सपर्ट",
+                            "text": "Postman द्वारा जारी • REST APIs का डिजाइन और परीक्षण।"
+                        },
+                        "ur": {
+                            "title": "پوسٹ مین API ماہر",
+                            "text": "Postman کی طرف سے جاری کردہ۔"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "Python",
+                    "label": "Python Programming Course",
+                    "link": {
+                        "href": "https://www.guvi.in/share-certificate/7521GBx67R76o345Wv",
+                        "tooltipString": "verify_certificate"
+                    },
+                    "img": "images/certificates/guvi.png",
+                    "faIcon": "fa-brands fa-linux",
+                    "badgeColor": "#FCC624",
+                    "locales": {
+                        "en": {
+                            "title": "Issued by GUVI",
+                            "text": "Issued by GUVI • Python Programming From BASIC to ADVANCE."
+                        },
+                        "es": {
+                            "title": "Administrador de Sistemas Linux",
+                            "text": "Emitido por Linux Foundation • Gestión de servidores y seguridad."
+                        },
+                        "hi": {
+                            "title": "लिनक्स सिस्टम एडमिनिस्ट्रेटर",
+                            "text": "Linux Foundation द्वारा जारी • सर्वर प्रबंधन और सुरक्षा।"
+                        },
+                        "ur": {
+                            "title": "لینکس سسٹم ایڈمنسٹریٹر",
+                            "text": "Linux Foundation کی طرف سے جاری کردہ۔"
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "AIML",
+                    "label": "Fundamentals of AI and ML",
+                    "link": {
+                        "href": "https://vityarthi.com/certificate/ud9ezvEbNrK7",
+                        "tooltipString": "verify_certificate"
+                    },
+                    "img": "images/certificates/vityarthi.png",
+                    "faIcon": "fa-brands fa-github",
+                    "badgeColor": "#181717",
+                    "locales": {
+                        "en": {
+                            "title": "Issued by Vityarthi",
+                            "text": "Issued by Vityarthi • Fundamentals of AI and ML Certification."
+                        },
+                        "es": {
+                            "title": "GitHub Actions y CI/CD",
+                            "text": "Emitido por GitHub • Canales automatizados y flujos de despliegue."
+                        },
+                        "hi": {
+                            "title": "गिटहब एक्शंस और CI/CD",
+                            "text": "GitHub द्वारा जारी • स्वचालित पाइपलाइन और डिप्लॉयमेंट वर्कफ़्लो।"
+                        },
+                        "ur": {
+                            "title": "گিট ہب ایکشنز اور CI/CD",
+                            "text": "GitHub کی طرف سے جاری کردہ۔"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {
+                    "title": "Personal {{interests}}"
+                },
+                "es": {
+                    "title": "Intereses {{personales}}"
+                },
+                "hi": {
+                    "title": "व्यक्तिगत {{रुचियां}}"
+                },
+                "ur": {
+                    "title": "ذاتی {{دلچسپیاں}}"
+                }
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Artificial {{Intelligence}} & Prompt Engineering",
+                            "text": "Building smart workflows with ML models and precise AI prompts."
+                        },
+                        "es": {
+                            "title": "Inteligencia {{Artificial}} y Prompt Engineering",
+                            "text": "Creando flujos inteligentes con modelos ML y prompts precisos."
+                        },
+                        "hi": {
+                            "title": "आर्टिफिशियल {{इंटेलिजेंस}} और प्रॉम्प्ट इंजीनियरिंग",
+                            "text": "ML मॉडल और सटीक प्रॉम्प्ट्स के साथ स्मार्ट वर्कफ़्लो बनाना।"
+                        },
+                        "ur": {
+                            "title": "آرٹیفیشل {{انٹیلی جنس}} اور پرامپٹ انجینئرنگ",
+                            "text": "ML ماڈلز اور درست پرامپٹس کے ساتھ سمارٹ ورک فلوز بنانا۔"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Learning New {{Technologies}}",
+                            "text": "Continuously exploring advanced tools in the data ecosystem."
+                        },
+                        "es": {
+                            "title": "Aprendiendo Nuevas {{Tecnologías}}",
+                            "text": "Explorando continuamente herramientas avanzadas en datos."
+                        },
+                        "hi": {
+                            "title": "नई {{तकनीकें}} सीखना",
+                            "text": "डेटा इकोसिस्टम में उन्नत उपकरणों को लगातार सीखना।"
+                        },
+                        "ur": {
+                            "title": "نئی {{ٹیکنالوجیز}} سیکھنا",
+                            "text": "ڈیٹا کے شعبے میں جدید آلات کو مسلسل سیکھنا۔"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Working with {{Data}}",
+                            "text": "Extracting meaningful insights and hidden patterns."
+                        },
+                        "es": {
+                            "title": "Trabajando con {{Datos}}",
+                            "text": "Extrayendo insights significativos y patrones ocultos."
+                        },
+                        "hi": {
+                            "title": "डेटा के साथ {{कार्य}}",
+                            "text": "अर्थपूर्ण अंतर्दृष्टि और छिपे हुए पैटर्न निकालना।"
+                        },
+                        "ur": {
+                            "title": "ڈیٹا کے ساتھ {{کام}}",
+                            "text": "معنی خیز بصیرت اور پوشیدہ نمونے نکالنا۔"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-pie",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Dashboard {{Designing}}",
+                            "text": "Building interactive dashboards for clear data visualization."
+                        },
+                        "es": {
+                            "title": "Diseño de {{Dashboards}}",
+                            "text": "Creando dashboards interactivos para visualizar datos."
+                        },
+                        "hi": {
+                            "title": "डैशबोर्ड {{डिजाइनिंग}}",
+                            "text": "स्पष्ट डेटा विजुअलाइजेशन के लिए इंटरैक्टिव डैशबोर्ड बनाना।"
+                        },
+                        "ur": {
+                            "title": "ڈیش بورڈ {{ڈیزائننگ}}",
+                            "text": "واضح ڈیٹا ویژولائزیشن کے لیے انٹرایکٹو ڈیش بورڈ بنانا۔"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Solving SQL {{Challenges}}",
+                            "text": "Practicing queries to sharpen database skills."
+                        },
+                        "es": {
+                            "title": "Desafíos de {{SQL}}",
+                            "text": "Practicando consultas para mejorar habilidades en bases de datos."
+                        },
+                        "hi": {
+                            "title": "एसक्यूएल {{चुनौतियां}}",
+                            "text": "डेटाबेस कौशल को बेहतर करने के लिए क्वेरी का अभ्यास।"
+                        },
+                        "ur": {
+                            "title": "ایس کیو ایل {{چیلنجز}}",
+                            "text": "ڈیٹا بیس کی مہارت کو بہتر بنانے کے لیے کوئریز کی مشق۔"
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code-pull-request",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Open-Source {{Contributing}}",
+                            "text": "Building scalable solutions with developer communities."
+                        },
+                        "es": {
+                            "title": "Código {{Abierto}}",
+                            "text": "Construyendo soluciones escalables con comunidades."
+                        },
+                        "hi": {
+                            "title": "ओपन-सोर्स {{कंट्रीब्यूटर}}",
+                            "text": "कम्युनिटी के साथ मिलकर स्केलेबल सॉल्यूशन बनाना।"
+                        },
+                        "ur": {
+                            "title": "اوپن سورس {{کنٹریبیوٹر}}",
+                            "text": "کمیونٹیز کے ساتھ مل کر قابل توسیع حل تیار کرنا۔"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

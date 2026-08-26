@@ -1,0 +1,79 @@
+/**
+ * @author Ryan Balieiro
+ * @description Neon Violet / Cyberpunk theme colors.
+ */
+
+@import "theme-variables-builder";
+
+$primary: #d946ef;        // Bright Neon Magenta/Purple
+$secondary: #94a3b8;      // Cool Slate Gray
+$dark: #0f172a;           // Deep Navy Dark
+$danger: #fca5a5;
+$muted: #64748b;
+
+$base-bg: #030712;        // Ultra Dark Slate/Black Background
+$base-bg-light: #0f172a;
+$base-bg-dark: #020617;
+
+$texts: #f8fafc;          // Clean Crisp White
+$texts-inverted: #030712;
+
+$base-container-bg: #0b0f19; // Container Surface Color
+$base-container-bg-accent: #1e1b4b;
+$base-popover-bg: #030712;
+$base-boards: lighten($base-container-bg, 4%);
+$base-info-badges: lighten($dark, 5%);
+$empty: darken($base-container-bg, 3%);
+
+$borders: #1e293b;        // Subtle Slate Border
+$borders-nav-mobile: rgba(white, 0.15);
+$borders-nav-mobile-accent: rgba(white, 0.6);
+$scrollbar-track: #050811;
+$scrollbar-thumb: #334155;
+
+[data-theme="neon-violet"] {
+    @include build-theme(
+        // Theme Config...
+        /** DARK MODE: **/                      true,
+
+        // Base Colors...
+        /** PRIMARY: **/                        $primary,
+        /** SECONDARY: **/                      $secondary,
+        /** DARK: **/                           $dark,
+        /** DANGER: **/                         $danger,
+        /** MUTED: **/                          $muted,
+
+        // Main Layout Colors...
+        /** BG: **/                             $base-bg,
+        /** BG CONTRAST: **/                    $base-bg-light,
+        /** BG CONTRAST DARKEN:**/              $base-bg-dark,
+        /** TEXTS: **/                          $texts,
+        /** TEXTS (INVERTED): **/               $texts-inverted,
+
+        // Nav
+        /** NAV MOBILE BG: **/                  $base-boards,
+        /** NAV MOBILE: **/                     $texts,
+        /** NAV MOBILE BORDER: **/              $borders-nav-mobile-accent,
+
+        /** NAV MOBILE HOVER BG: **/            $base-boards,
+        /** NAV MOBILE HOVER: **/               $primary,
+
+        /** NAV MOBILE SELECTED BG: **/         $primary,
+        /** NAV MOBILE SELECTED: **/            $texts-inverted,
+        /** NAV MOBILE SELECTED BORDER: **/     $borders-nav-mobile,
+
+        // Main Layout Elements...
+        /** SECTION BG: **/                     $base-container-bg,
+        /** CARD BG: **/                        $base-container-bg,
+        /** POPUPS BG: **/                      $base-popover-bg,
+        /** BOARDS: **/                         $base-boards,
+        /** INFO BADGE BG: **/                  $base-info-badges,
+        /** INFO BADGE **/                      $texts,
+        /** EMPTY **/                           $empty,
+
+        // Other Colors...
+        /** DEFAULT BORDERS: **/                $borders,
+        /** SCROLLBAR TRACK: **/                $scrollbar-track,
+        /** SCROLLBAR THUMB: **/                $scrollbar-thumb,
+    );
+}

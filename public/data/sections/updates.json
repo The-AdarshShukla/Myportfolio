@@ -1,0 +1,353 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "es": {
+                "title_short": "Vida Reciente",
+                "title_short_nav": "Actualizaciones",
+                "title_long_prefix": "Consulta mis",
+                "title_long": "Actualizaciones {{Recientes}}"
+            },
+            "fr": {
+                "title_short": "Vie Récente",
+                "title_short_nav": "Mises à Jour",
+                "title_long_prefix": "Découvrez mes",
+                "title_long": "Dernières {{Mises à Jour}}"
+            },
+            "ko": {
+                "title_short": "최근의 삶",
+                "title_short_nav": "업데이트",
+                "title_long_prefix": "내 최근",
+                "title_long": "{{업데이트}}를 확인해 보세요"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+    {
+        "id": 1,
+        "img": null,
+        "faIcon": "fa-solid fa-tablet-screen-button",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "02",
+                "text": "Apps Published"
+            },
+            "es": {
+                "text": "Aplicaciones Publicadas"
+            },
+            "fr": {
+                "text": "Applications Publiées"
+            },
+            "ko": {
+                "text": "출시된 앱"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "img": null,
+        "faIcon": "fa-solid fa-star",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "20+",
+                "text": "Stars on GitHub"
+            },
+            "es": {
+                "text": "Estrellas en GitHub"
+            },
+            "fr": {
+                "text": "Étoiles sur GitHub"
+            },
+            "ko": {
+                "text": "GitHub의 별"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "img": null,
+        "faIcon": "fa-solid fa-diagram-project",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "03",
+                "text": "Open-source projects"
+            },
+            "es": {
+                "text": "Proyectos de Código Abierto"
+            },
+            "fr": {
+                "text": "Projets Open-source"
+            },
+            "ko": {
+                "text": "오픈 소스 프로젝트"
+            }
+        }
+    },
+    {
+        "id": 4,
+        "img": null,
+        "faIcon": "fa-solid fa-laptop-code",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "5,0000+",
+                "text": "Lines of code"
+            },
+            "es": {
+                "text": "Líneas de código"
+            },
+            "fr": {
+                "text": "Lignes de code"
+            },
+            "ko": {
+                "text": "코드 라인 수"
+            }
+        }
+    },
+    {
+        "id": 5,
+        "img": null,
+        "faIcon": "fa-solid fa-award",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "15+",
+                "text": "Certifications Earned"
+            },
+            "es": {
+                "title": "15+",
+                "text": "Certificaciones Obtenidas"
+            },
+            "fr": {
+                "title": "15+",
+                "text": "Certifications Obtenues"
+            },
+            "ko": {
+                "title": "15+",
+                "text": "획득한 자격증"
+            }
+        }
+    },
+    {
+        "id": 6,
+        "img": null,
+        "faIcon": "fa-solid fa-briefcase",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "03+",
+                "text": "Years of Experience"
+            },
+            "es": {
+                "title": "03+",
+                "text": "Años de Experiencia"
+            },
+            "fr": {
+                "title": "03+",
+                "text": "Années d'Expérience"
+            },
+            "ko": {
+                "title": "03+",
+                "text": "경력 연수"
+            }
+        }
+    },
+    {
+        "id": 7,
+        "img": null,
+        "faIcon": "fa-solid fa-heart",
+        "faIconColors": {"bg": "", "fill": ""},
+        "locales": {
+            "en": {
+                "title": "Infinite",
+                "text": "Passion for learning"
+            },
+            "es": {
+                "title": "Infinita",
+                "text": "Pasión por Aprender"
+            },
+            "fr": {
+                "title": "Infinie",
+                "text": "Passion d'apprendre"
+            },
+            "ko": {
+                "title": "무한대",
+                "text": "배움에 대한 열정"
+            }
+        }
+    }
+]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Quick {{Facts}}" },
+                "es": { "title": "Feed de {{Noticias}}" },
+                "fr": { "title": "Fil d'{{Actualités}}" },
+                "ko": { "title": "{{뉴스}} 피드" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+               
+                {
+                    "id": 3,
+                    "date": {"year": 2024, "month": 12},
+                    "preview": {
+                        "links": [
+                            {"href": "", "tooltipString": "open_website", "faIcon": "fa-brands fa-globe"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Working on a new {{mobile and web project!}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "",
+                            "text": "I’m excited to share that I’m currently working on a new mobile project! Some features of this project include:",
+                            "list": [
+                                "Cross-platform compatibility with iOS and Android",
+                                "User-friendly interface with intuitive navigation",
+                                "Integration with popular APIs for enhanced functionality",
+                                "Real-time data synchronization for seamless user experience"
+                            ]
+                        },
+                        "es": {
+                            "title": "Trabajando en un nuevo {{proyecto móvil!}}",
+                            "province": "California",
+                            "country": "EE.UU.",
+                            "institution": "",
+                            "text": "Estoy emocionado de compartir que actualmente estoy trabajando en un nuevo proyecto móvil! Algunas características de este proyecto incluyen:",
+                            "list": [
+                                "Compatibilidad multiplataforma con iOS y Android",
+                                "Interfaz amigable con navegación intuitiva",
+                                "Integración con APIs populares para funcionalidad mejorada",
+                                "Sincronización de datos en tiempo real para una experiencia de usuario fluida"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Travail sur un nouveau {{projet mobile!}}",
+                            "province": "Californie",
+                            "country": "États-Unis",
+                            "institution": "",
+                            "text": "Je suis ravi de partager que je travaille actuellement sur un nouveau projet mobile ! Certaines fonctionnalités de ce projet incluent :",
+                            "list": [
+                                "Compatibilité multiplateforme avec iOS et Android",
+                                "Interface conviviale avec une navigation intuitive",
+                                "Intégration avec des API populaires pour une fonctionnalité améliorée",
+                                "Synchronisation des données en temps réel pour une expérience utilisateur fluide"
+                            ]
+                        },
+                        "ko": {
+                            "title": "{{모바일 프로젝트!}} 작업 중",
+                            "province": "캘리포니아",
+                            "country": "미국",
+                            "institution": "",
+                            "text": "현재 새로운 모바일 프로젝트를 작업 중입니다! 이 프로젝트의 몇 가지 기능은 다음과 같습니다:",
+                            "list": [
+                                "iOS 및 Android와의 크로스 플랫폼 호환성",
+                                "직관적인 탐색을 갖춘 사용자 친화적인 인터페이스",
+                                "기능 향상을 위한 인기 API 통합",
+                                "원활한 사용자 경험을 위한 실시간 데이터 동기화"
+                            ]
+                        }
+                    }
+                },
+                
+                {
+                    "id": 5,
+                    "date": {"year": 2026, "month": 8},
+                    "preview": {
+                        "links": [
+                            {"href": "https://www.adarshshukla.in", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/The-adarshshukla", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Launched my {{personal}} portfolio{{ website!}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "",
+                            "text": "I’m excited to announce the launch of my [[personal portfolio website]]! 🎉 This is a space where I can share my projects, blog posts, and insights into the world of technology and development. I can’t wait for you all to explore it. Here are some highlights of what you can find on the site:",
+                            "list": [
+                                "Portfolio showcasing my projects and contributions",
+                                "Blog with articles on technology, coding, and personal experiences",
+                                "Contact form for inquiries and collaborations",
+                                "Links to my social media profiles and GitHub"
+                            ]
+                        },
+                        "es": {
+                            "title": "¡Lanzamiento de mi {{sitio web personal!}}",
+                            "province": "California",
+                            "country": "EE.UU.",
+                            "institution": "",
+                            "text": "Estoy emocionado de anunciar el lanzamiento de mi [[sitio web personal]]! 🎉 Esta plataforma es un espacio donde puedo compartir mis proyectos, publicaciones de blog y reflexiones sobre el mundo de la tecnología y el desarrollo. Ha sido un trabajo de amor, y no puedo esperar a que todos lo exploren. Aquí hay algunos aspectos destacados de lo que puedes encontrar en el sitio:",
+                            "list": [
+                                "Portafolio que muestra mis proyectos y contribuciones",
+                                "Blog con artículos sobre tecnología, codificación y experiencias personales",
+                                "Formulario de contacto para consultas y colaboraciones",
+                                "Enlaces a mis perfiles en redes sociales y GitHub"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Lancement de mon {{site web personnel!}}",
+                            "province": "Californie",
+                            "country": "États-Unis",
+                            "institution": "",
+                            "text": "Je suis ravi d'annoncer le lancement de mon [[site web personnel]] ! 🎉 Cette plateforme est un espace où je peux partager mes projets, articles de blog et réflexions sur le monde de la technologie et du développement. C'est un travail de passion, et j'ai hâte que vous l'exploriez tous. Voici quelques points forts de ce que vous pouvez trouver sur le site :",
+                            "list": [
+                                "Portfolio présentant mes projets et contributions",
+                                "Blog avec des articles sur la technologie, la programmation et mes expériences personnelles",
+                                "Formulaire de contact pour les demandes et collaborations",
+                                "Liens vers mes profils sur les réseaux sociaux et GitHub"
+                            ]
+                        },
+                        "ko": {
+                            "title": "{{개인 웹사이트!}} 출시",
+                            "province": "캘리포니아",
+                            "country": "미국",
+                            "institution": "",
+                            "text": "개인 웹사이트를 출시하게 되어 매우 기쁩니다! 🎉 이 플랫폼은 제가 프로젝트, 블로그 게시물 및 기술과 개발 세계에 대한 통찰력을 공유할 수 있는 공간입니다. 사랑으로 만든 결과물이며, 여러분이 탐험하기를 기대합니다. 사이트에서 찾을 수 있는 몇 가지 하이라이트는 다음과 같습니다:",
+                            "list": [
+                                "프로젝트와 기여를 보여주는 포트폴리오",
+                                "기술, 코딩 및 개인 경험에 관한 블로그",
+                                "문의 및 협업을 위한 연락처 양식",
+                                "소셜 미디어 프로필 및 GitHub 링크"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,293 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            },
+            "es": {
+                "title_short": "Logros",
+                "title_short_nav": "Logros",
+                "title_long_prefix": "Aquí están mis",
+                "title_long": "{{Logros}} Profesionales"
+            },
+            "hi": {
+                "title_short": "उपलब्धियां",
+                "title_short_nav": "उपलब्धियां",
+                "title_long_prefix": "यहाँ मेरी",
+                "title_long": "करियर {{उपलब्धियां}} हैं"
+            },
+            "ur": {
+                "title_short": "ایوارڈز",
+                "title_short_nav": "کامیابیاں",
+                "title_long_prefix": "یہ میری ہیں",
+                "title_long": "کیریئر کی {{کامیابیاں}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": {
+                    "title": "Achievements"
+                },
+                "es": {
+                    "title": "Certificaciones"
+                },
+                "hi": {
+                    "title": "प्रमाणपत्र"
+                },
+                "ur": {
+                    "title": "سرٹیفیکیشنز"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-shield-halved",
+                    "faIconColors": {
+                        "bg": "#0f62fe",
+                        "fill": "#EEE"
+                    },
+                    "date": {
+                        "year": 2026,
+                        "month": 8
+                    },
+                    "link": {
+                        "href": "https://www.credly.com/",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{IBM}} Skills Network",
+                            "text": "Data Privacy Fundamentals"
+                        },
+                        "es": {
+                            "title": "{{IBM Skills Network}}",
+                            "text": "Fundamentos de Privacidad de Datos"
+                        },
+                        "hi": {
+                            "title": "{{आईबीएम स्किल्स नेटवर्क}}",
+                            "text": "डेटा प्राइवेसी फंडामेंटल्स (Data Privacy Fundamentals)"
+                        },
+                        "ur": {
+                            "title": "{{آئی بی ایم اسکلز نیٹ ورک}}",
+                            "text": "ڈیٹا پرائیویسی فنڈامینٹल्स"
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {
+                        "bg": "#2b3847",
+                        "fill": "#EEE"
+                    },
+                    "date": {
+                        "year": 2026,
+                        "month": 8
+                    },
+                    "link": {
+                        "href": "https://www.credly.com/badges/385ae082-5642-4f1e-9744-ea5f0168d00e/public_url",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Certiprof}}",
+                            "text": "Lifelong Learner 2026"
+                        },
+                        "es": {
+                            "title": "{{Certiprof}}",
+                            "text": "Aprendiz de por vida 2026"
+                        },
+                        "hi": {
+                            "title": "{{सर्टिप्रोफ (Certiprof)}}",
+                            "text": "लाइफलांग लर्नर 2026 (Lifelong Learner 2026)"
+                        },
+                        "ur": {
+                            "title": "{{سرٹی پروف}}",
+                            "text": "لائف لانگ لرنر 2026"
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "#00ED64",
+                        "fill": "#001E2B"
+                    },
+                    "date": {
+                        "year": 2026,
+                        "month": 8
+                    },
+                    "link": {
+                        "href": "https://www.credly.com/badges/7106b63b-0e3d-4fe7-952e-93432ed9ce31/public_url",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{MongoDB}}",
+                            "text": "CRUD Operations in MongoDB"
+                        },
+                        "es": {
+                            "title": "{{MongoDB}}",
+                            "text": "Operaciones CRUD en MongoDB"
+                        },
+                        "hi": {
+                            "title": "{{मोंगोडीबी (MongoDB)}}",
+                            "text": "मोंगोडीबी में CRUD ऑपरेशंस"
+                        },
+                        "ur": {
+                            "title": "{{مونگو ڈی بی}}",
+                            "text": "مونگو ڈی بی میں CRUD آپریشنز"
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-cloud",
+                    "faIconColors": {
+                        "bg": "#00a4ef",
+                        "fill": "#EEE"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 11
+                    },
+                    "link": {
+                        "href": "https://learn.microsoft.com/api/achievements/share/en-in/AdarshShukla-4371/YPQ4U6SR?sharingId=D96993FF3C1FDBA1",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Microsoft}}",
+                            "text": "Create and explore the Responsible AI dashboard for a model in Azure Machine Learning"
+                        },
+                        "es": {
+                            "title": "{{Microsoft}}",
+                            "text": "Crear y explorar el panel de IA responsable para un modelo en Azure Machine Learning"
+                        },
+                        "hi": {
+                            "title": "{{माइक्रोसॉफ्ट (Microsoft)}}",
+                            "text": "Azure Machine Learning में मॉडल के लिए रिस्पांसिबल AI डैशबोर्ड बनाना और एक्सप्लोर करना"
+                        },
+                        "ur": {
+                            "title": "{{مائیکروسافٹ}}",
+                            "text": "Azure Machine Learning میں ماڈل کے لیے رسپانسبل AI ڈ্যাশবোর্ড بنانا اور ایکسپلور کرنا"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {
+                    "title": "Awards"
+                },
+                "es": {
+                    "title": "Premios"
+                },
+                "hi": {
+                    "title": "पुरस्कार"
+                },
+                "ur": {
+                    "title": "ایوارڈز"
+                }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+              
+                {
+                    "id": 4,
+                    "date": {
+                        "year": 2026,
+                        "month": 1
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.linkedin.com/feed/update/urn:li:activity:7416379219695357953/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-globe"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/kavya samman.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{ Kavya Samman 2025-26}} – The New Bharat",
+                            "province": "New Delhi",
+                            "country": "India",
+                            "institution": "The New Bharat",
+                            "text": "Recognized with the [[Atal Bihari Vajpayee Prerna Kavya Samman 2025-26]] by 'The New Bharat' web portal on the occasion of World Hindi Day 2026, for exceptional contribution and creative expression in Hindi literature and poetry. This honor is dedicated to creativity, poetic skill, and literary contribution. Key highlights of the recognition include: ",
+                            "list": [
+                                "Awarded on World Hindi Day (10 January 2026)",
+                                "Recognized for outstanding contribution to Hindi literature and poetry",
+                                "Honored by 'The New Bharat' web portal committee"
+                            ]
+                        },
+                        "es": {
+                            "title": "{{ Kavya Samman 2025-26}} – The New Bharat",
+                            "province": "Nueva Delhi",
+                            "country": "India",
+                            "institution": "The New Bharat",
+                            "text": "Reconocido con el [[Atal Bihari Vajpayee Prerna Kavya Samman 2025-26]] por el portal web 'The New Bharat' con ocasión del Día Mundial del Hindi 2026, por una contribución excepcional y expresión creativa en la literatura y poesía hindi. Los aspectos más destacados de este reconocimiento incluyen: ",
+                            "list": [
+                                "Otorgado en el Día Mundial del Hindi (10 de enero de 2026)",
+                                "Reconocido por su destacada contribución a la literatura y poesía en hindi",
+                                "Homenajeado por el comité del portal web 'The New Bharat'"
+                            ]
+                        },
+                        "hi": {
+                            "title": "{{अटल बिहारी वाजपेयी प्रेरणा काव्य सम्मान 2025-26}} – द न्यू भारत",
+                            "province": "नई दिल्ली",
+                            "country": "भारत",
+                            "institution": "द न्यू भारत",
+                            "text": "विश्व हिन्दी दिवस 2026 के अवसर पर, हिन्दी साहित्य और काव्य साधना में उत्कृष्ट योगदान एवं रचनात्मक अभिव्यक्ति के सम्मानस्वरूप, [[द न्यू भारत]] वेब पोर्टल द्वारा 'अटल बिहारी वाजपेयी प्रेरणा काव्य सम्मान 2025-26' प्रदान किया गया। यह सम्मान सृजनशीलता, काव्य कौशल और साहित्यिक योगदान को समर्पित है, जिससे हिन्दी कविता को नई ऊँचाइयाँ प्राप्त हुई हैं। इस सम्मान से जुड़ी मुख्य बातें निम्नलिखित हैं: ",
+                            "list": [
+                                "विश्व हिन्दी दिवस (10 जनवरी 2026) के अवसर पर प्रदत्त",
+                                "हिन्दी साहित्य और काव्य साधना में उत्कृष्ट योगदान हेतु मान्यता",
+                                "'द न्यू भारत' वेब पोर्टल द्वारा सम्मानित"
+                            ]
+                        },
+                        "ur": {
+                            "title": "{{اٹل بہاری واجپائی پرےرنا کاویہ سمان 2025-26}} – دی نیو بھارت",
+                            "province": "نئی دہلی",
+                            "country": "بھارت",
+                            "institution": "دی نیو بھارت",
+                            "text": "عالمی ہندی دن 2026 کے موقع پر، ہندی ادب اور شاعری کی ترویج میں شاندار تعاون اور تخلیقی اظہار کے اعتراف میں، [[دی نیو بھارت]] ویب پورٹل کی جانب سے 'اٹل بہاری واجپائی پرےرنا کاویہ سمان 2025-26' سے نوازا گیا۔ یہ اعزاز تخلیقی صلاحیت، شعری ہنر اور ادبی خدمات کے اعتراف میں دیا گیا ہے۔ اس اعزاز کی اہم خصوصیات درج ذیل ہیں: ",
+                            "list": [
+                                "عالمی ہندی دن (10 جنوری 2026) کے موقع پر عطا کیا گیا",
+                                "ہندی ادب اور شاعری میں شاندار خدمات کے لیے اعتراف",
+                                "'دی نیو بھارت' ویب پورٹل کی کمیٹی کی طرف سے اعزاز"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

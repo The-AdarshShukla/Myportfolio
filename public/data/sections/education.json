@@ -1,0 +1,245 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "This is my",
+                "title_long": "{{Education}} Background"
+            },
+            "hi": {
+                "title_short": "शिक्षा",
+                "title_short_nav": "शिक्षा",
+                "title_long_prefix": "यह मेरी",
+                "title_long": "{{शैक्षणिक}} पृष्ठभूमि"
+            },
+            "ur": {
+                "title_short": "تعلیم",
+                "title_short_nav": "تعلیم",
+                "title_long_prefix": "یہ میری",
+                "title_long": "{{تعلیمی}} پس منظر"
+            },
+            "es": {
+                "title_short": "Educación",
+                "title_short_nav": "Educación",
+                "title_long_prefix": "Esta es mi",
+                "title_long": "{{Formación}} Educativa"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc",
+                "categories": [
+                    { "id": null, "label": "All" },
+                    { "id": "academic", "label": "Academic" },
+                    { "id": "online", "label": "Online Courses" }
+                ]
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "academic",
+                    "img": "images/pictures/muit.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2024, "month": 8},
+                    "dateEnd": {"year": 2028, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "B.Tech in Computer Science & {{Data Science}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Maharishi University of Information Technology",
+                            "text": "A B.Tech student with core specializing in Computer Data Science and Machine Learning at Maharishi University, with a strong technical foundation in programming, data structures, algorithms, data analysis and computational mathematics. Passionate about problem-solving, software development, and Dedicated to continuous learning and applying technology to solve real-world challenges.",
+                            "list": [
+                                "Proficient in Java, Python and SQL.",
+                                "Skilled in data analysis and visualization tools.",
+                                "Interest in Data Analyst and Data science.",
+                                "Big Data Analytics & Statistical Computing"
+                            ],
+                            "tags": ["Data Science", "Data analyst","Machine Learning","Artificial Intelligence", "Statistics"]
+                        },
+                        "hi": {
+                            "title": "कंप्यूटर विज्ञान और {{डेटा साइंस}} में बी.टेक",
+                            "province": "नोएडा",
+                            "country": "भारत",
+                            "institution": "महर्षि सूचना प्रौद्योगिकी विश्वविद्यालय",
+                            "text": "[[डेटा साइंस और मशीन लर्निंग]] में विशेषज्ञता के साथ बी.टेक की डिग्री प्राप्त कर रहा हूँ। कम्प्यूटेशनल गणित, सांख्यिकीय मॉडलिंग और उन्नत डेटा-संचालित सिस्टम में एक मजबूत आधार बनाने पर ध्यान केंद्रित कर रहा हूँ।",
+                            "list": [
+                                "उन्नत मशीन लर्निंग और प्रेडिक्टिव मॉडलिंग",
+                                "बिग डेटा एनालिटिक्स और सांख्यिकीय कंप्यूटिंग",
+                                "डीप लर्निंग आर्किटेक्चर"
+                            ],
+                            "tags": ["डेटा साइंस", "मशीन लर्निंग", "सांख्यिकी"]
+                        },
+                        "ur": {
+                            "title": "بی ٹیک کمپیوٹر سائنس اور {{ڈیٹا سائنس}}",
+                            "province": "نوئیڈا",
+                            "country": "بھارت",
+                            "institution": "مہارشی یونیورسٹی آف انفارمیشن ٹیکنالوجی",
+                            "text": "فی الحال [[ڈیٹا سائنس اور مشین لرننگ]] میں مہارت کے ساتھ بی ٹیک کی ڈگری حاصل کر رہا ہوں۔ کمپیوٹیشنل ریاضی، شماریاتی ماڈلنگ اور جدید ڈیٹا پر مبنی سسٹمز میں مضبوط بنیاد بنانے پر توجہ مرکوز ہے۔",
+                            "list": [
+                                "ایڈوانسڈ مشین لرننگ اور پریڈکٹو ماڈلنگ",
+                                "بگ ڈیٹا اینالیٹکس اور شماریاتی کمپیوٹنگ",
+                                "ڈیپ لرننگ آرکیٹیکچر"
+                            ],
+                            "tags": ["ڈیٹا سائنس", "مشین لرننگ", "شماریات"]
+                        },
+                        "es": {
+                            "title": "B.Tech en Ciencias de la Computación y {{Data Science}}",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Maharishi University of Information Technology",
+                            "text": "Cursando actualmente un B.Tech con especialización en [[Data Science y Machine Learning]]. Enfocado en construir una base sólida en matemáticas computacionales, modelos estadísticos y sistemas avanzados orientados a datos.",
+                            "list": [
+                                "Machine Learning avanzado y modelos predictivos",
+                                "Análisis de Big Data y computación estadística",
+                                "Arquitecturas de Deep Learning"
+                            ],
+                            "tags": ["Data Science", "Machine Learning", "Estadística"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "academic",
+                    "img": "images/pictures/delhi school images.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2021, "month": 4},
+                    "dateEnd": {"year": 2023, "month": 5},
+                    "locales": {
+                        "en": {
+                            "title": "Senior Secondary Education ({{Class 12th}})",
+                            "province": "Delhi",
+                            "country": "India",
+                            "institution": "CBSE Board",
+                            "text": "Completed Senior Secondary Education with a focus on science stream, building strong knowledge in physics, chemistry, and mathematics. Actively participated in academic and extracurricular activities, developing analytical thinking, communication skills, and discipline, which created a strong foundation for pursuing further studies in technology and engineering.",
+                            
+                           
+                            "tags": ["Physics", "Mathematics", "Computer Science", "Chemistry"]
+                        },
+                        "hi": {
+                            "title": "सीनियर सेकेंडरी शिक्षा ({{कक्षा 12वीं}})",
+                            "province": "दिल्ली",
+                            "country": "भारत",
+                            "institution": "CBSE बोर्ड",
+                            "text": "वैज्ञानिक और कम्प्यूटेशनल सिद्धांतों पर मुख्य ध्यान केंद्रित करते हुए [[CBSE बोर्ड]] के तहत सीनियर सेकेंडरी शिक्षा सफलतापूर्वक पूरी की।",
+                            "list": [
+                                "भौतिकी (Physics)",
+                                "रसायन विज्ञान (Chemistry)",
+                                "गणित (Mathematics)",
+                                "कंप्यूटर साइंस"
+                            ],
+                            "tags": ["भौतिकी", "गणित", "कंप्यूटर साइंस", "CBSE"]
+                        },
+                        "ur": {
+                            "title": "سینئر سیکنڈری تعلیم ({{بارہویں جماعت}})",
+                            "province": "دہلی",
+                            "country": "بھارت",
+                            "institution": "CBSE بورڈ",
+                            "text": "[[CBSE بورڈ]] کے تحت سائنسی اور کمپیوٹیشنل اصولوں پر خصوصی توجہ کے ساتھ سینئر سیکنڈری کی تعلیم کامیابی سے مکمل کی۔",
+                            "list": [
+                                "فزکس",
+                                "کیمسٹری",
+                                "ریاضی",
+                                "کمپیوٹر سائنس"
+                            ],
+                            "tags": ["فزکس", "ریاضی", "کمپیوٹر سائنس", "CBSE"]
+                        },
+                        "es": {
+                            "title": "Educación Secundaria Superior ({{12.º grado}})",
+                            "province": "Delhi",
+                            "country": "India",
+                            "institution": "Junta CBSE",
+                            "text": "Completé con éxito la Educación Secundaria Superior bajo la [[junta CBSE]] con un fuerte enfoque en principios científicos y computacionales.",
+                            "list": [
+                                "Física",
+                                "Química",
+                                "Matemáticas",
+                                "Ciencias de la Computación"
+                            ],
+                            "tags": ["Física", "Matemáticas", "Ciencias de la Computación", "CBSE"]
+                        }
+                    }
+                },
+                
+                {
+                    "id": 3,
+                    "categoryId": "online",
+                    "img": "images/pictures/mnps.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2019, "month": 4},
+                    "dateEnd": {"year": 2021, "month": 5},
+                    "locales": {
+                        "en": {
+                            "title": "Secondary Education ({{Class 10th}})",
+                            "province": "Ghaziabad",
+                            "country": "India",
+                            "institution": "CBSE Board",
+                            "text": "Completed Secondary Education with a strong academic record and active participation in extracurricular activities. Developed a solid foundation in mathematics, science, and language skills. Gained discipline, teamwork abilities, and problem-solving mindset, laying the groundwork for future academic and professional growth in the field of technology.",
+                           
+                            "tags": ["Hindi","English", "Mathematics","history", "Science", "Geography"]
+                        },
+                        "hi": {
+                            "title": "सेकेंडरी शिक्षा ({{कक्षा 10वीं}})",
+                            "province": "गाजियाबाद",
+                            "country": "भारत",
+                            "institution": "CBSE बोर्ड",
+                            "text": "[[CBSE बोर्ड]] के तहत बुनियादी सेकेंडरी शिक्षा पूरी की, जिसमें कोर विषयों में बहु-विषयक ज्ञान प्राप्त किया।",
+                            "list": [
+                                "अंग्रेजी",
+                                "हिंदी",
+                                "इतिहास",
+                                "भूगोल",
+                                "गणित",
+                                "विज्ञान"
+                            ],
+                            "tags": ["सेकेंडरी शिक्षा", "गणित", "विज्ञान", "CBSE"]
+                        },
+                        "ur": {
+                            "title": "سیکنڈری تعلیم ({{دسویں جماعت}})",
+                            "province": "غازی آباد",
+                            "country": "بھارت",
+                            "institution": "CBSE بورڈ",
+                            "text": "[[CBSE بورڈ]] کے تحت بنیادی سیکنڈری تعلیم مکمل کی، جس میں مختلف مضامین میں علمی بنیاد مضبوط کی۔",
+                            "list": [
+                                "انگریزی",
+                                "ہندی",
+                                "تاریخ",
+                                "جغرافیہ",
+                                "ریاضی",
+                                "سائنسی علوم"
+                            ],
+                            "tags": ["سیکنڈری تعلیم", "ریاضی", "سائنس", "CBSE"]
+                        },
+                        "es": {
+                            "title": "Educación Secundaria ({{10.º grado}})",
+                            "province": "Ghaziabad",
+                            "country": "India",
+                            "institution": "Junta CBSE",
+                            "text": "Completé la Educación Secundaria fundamental bajo la [[junta CBSE]], adquiriendo conocimientos multidisciplinarios.",
+                            "list": [
+                                "Inglés",
+                                "Hindi",
+                                "Historia",
+                                "Geografía",
+                                "Matemáticas",
+                                "Ciencias"
+                            ],
+                            "tags": ["Educación Secundaria", "Matemáticas", "Ciencias", "CBSE"]
+                        }
+                    }
+                }
+               
+            ]
+        }
+    ]
+}

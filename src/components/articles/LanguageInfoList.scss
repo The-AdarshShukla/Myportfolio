@@ -1,0 +1,64 @@
+@import "/src/styles/extend.scss";
+
+/* यह क्लास सिर्फ आपकी भाषा वाले सेक्शन पर ही असर डालेगी */
+div.language-info-list {
+    div.article-info-list-items {
+        --grid-row-gap: 12px;
+        --grid-column-gap: 10px;
+        --grid-template-columns: repeat(1, 1fr);
+        --avatar-size: 45px;
+        --min-height: 70px;
+        --padding: 6px;
+        --content-padding: 12px 20px;
+
+        display: grid;
+        grid-template-columns: var(--grid-template-columns);
+        row-gap: var(--grid-row-gap);
+        column-gap: var(--grid-column-gap);
+        width: 100%;
+    }
+
+    div.article-info-list-item {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: var(--theme-boards-background);
+        border-radius: $standard-border-radius;
+        padding: var(--padding);
+        min-height: var(--min-height);
+
+        &-avatar {
+            width: var(--avatar-size) !important;
+            height: var(--avatar-size) !important;
+            min-width: var(--avatar-size) !important;
+            max-width: var(--avatar-size) !important;
+            object-fit: cover !important;
+            font-size: calc(var(--avatar-size) / 2) !important;
+            background-color: transparent !important;
+            color: var(--theme-texts) !important;
+            border-radius: 50% !important;
+            margin-left: 12px;
+        }
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            padding: var(--content-padding);
+        }
+
+        div.article-info-list-item-info-title {
+            font-weight: bold;
+            color: var(--theme-texts-light) !important;
+            margin-bottom: 2px;
+        }
+
+        div.article-info-list-item-info-text {
+            display: inline;
+            color: var(--theme-texts-light-2) !important;
+            margin-bottom: 0;
+            font-size: 0.9rem;
+        }
+    }
+}

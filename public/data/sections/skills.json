@@ -1,0 +1,531 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            },
+            "hi": {
+                "title_short": "कौशल",
+                "title_short_nav": "कौशल",
+                "title_long_prefix": "अन्वेषण करें",
+                "title_long": "मेरे {{कौशल सेट}}"
+            },
+            "ur": {
+                "title_short": "مہارتیں",
+                "title_short_nav": "مہارتیں",
+                "title_long_prefix": "دریافت کریں",
+                "title_long": "میرا {{مہارت کا مجموعہ}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTestimonials",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-table-columns",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Website}} design",
+                            "text": "I can bring your best ideas into life and make them a reality!"
+                        },
+                        "hi": {
+                            "title": "{{वेबसाइट}} डिज़ाइन",
+                            "text": "मैं आपके बेहतरीन विचारों को जीवन में ला सकता हूँ और उन्हें हकीकत बना सकता हूँ!"
+                        },
+                        "ur": {
+                            "title": "{{ویب سائٹ}} ڈیزائن",
+                            "text": "میں آپ کے بہترین خیالات کو حقیقت میں بدل سکتا ہوں!"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Database}} management",
+                            "text": "I can handle your data effectively and efficiently!"
+                        },
+                        "hi": {
+                            "title": "{{डेटाबेस}} प्रबंधन",
+                            "text": "मैं आपके डेटा को प्रभावी ढंग से और कुशलता से संभाल सकता हूँ!"
+                        },
+                        "ur": {
+                            "title": "{{ڈیٹا بیس}} مینجمنٹ",
+                            "text": "میں آپ کے ڈیٹا کو مؤثر طریقے سے سنبھال سکتا ہوں!"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-mobile-screen-button",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{PortFolio}} Design",
+                            "text": "I can make creative and Responsive Portfolios!"
+                        },
+                        "hi": {
+                            "title": "{{ऐप}} निर्माण",
+                            "text": "मैं रचनात्मक और अभिनव ऐप बना सकता हूँ!"
+                        },
+                        "ur": {
+                            "title": "{{ایپ}} تخلیق",
+                            "text": "میں تخلیقی اور جدید ایپس بنا سکتا ہوں!"
+                        }
+                    }
+                },
+               {
+    "id": 4,
+    "img": "",
+    "faIcon": "fa-solid fa-window-restore",
+    "faIconColors": {
+        "bg": "",
+        "fill": ""
+    },
+    "date": {
+        "year": null,
+        "month": null
+    },
+    "link": {
+        "href": "",
+        "tooltipString": ""
+    },
+    "locales": {
+        "en": {
+            "title": "{{Prompt}} Engineering",
+            "text": "I can optimize LLM prompts and system outputs!"
+        },
+        "hi": {
+            "title": "{{Prompt}} इंजीनियरिंग",
+            "text": "मैं एआई प्रॉम्प्ट और सिस्टम आउटपुट को ऑप्टिमाइज़ कर सकता हूँ!"
+        },
+        "ur": {
+            "title": "{{Prompt}} انجینئرنگ",
+            "text": "میں اے آئی پراम्प्ट اور سسٹم آؤٹ پٹس کو بہتر بنا سکتا ہوں!"
+        }
+    }
+},
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-lock",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cyber {{Security}}",
+                            "text": "Security is my middle name!"
+                        },
+                        "hi": {
+                            "title": "सूचना {{सुरक्षा}}",
+                            "text": "सुरक्षा मेरी प्राथमिकता है!"
+                        },
+                        "ur": {
+                            "title": "معلومات کی {{سیکیورٹی}}",
+                            "text": "سیکیورٹی میری اولین ترجیح ہے!"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleCards",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {
+                    "title": "Skill {{Sets}}"
+                },
+                "es": {
+                    "title": "Intereses {{personales}}"
+                },
+                "hi": {
+                    "title": "व्यक्तिगत {{रुचियां}}"
+                },
+                "ur": {
+                    "title": "ذاتی {{دلچسپیاں}}"
+                }
+            },
+            "items": [
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Learning New {{Technologies}}",
+                            "text": "Continuously exploring advanced tools in the data ecosystem."
+                        },
+                        "es": {
+                            "title": "Aprendiendo Nuevas {{Tecnologías}}",
+                            "text": "Explorando continuamente herramientas avanzadas en datos."
+                        },
+                        "hi": {
+                            "title": "नई {{तकनीकें}} सीखना",
+                            "text": "डेटा इकोसिस्टम में उन्नत उपकरणों को लगातार सीखना।"
+                        },
+                        "ur": {
+                            "title": "نئی {{ٹیکنالوجیز}} سیکھنا",
+                            "text": "ڈیٹا کے شعبے میں جدید آلات کو مسلسل سیکھنا۔"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-puzzle-piece",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Problem {{Solving}}",
+                            "text": "Tackling complex challenges with logical thinking."
+                        },
+                        "es": {
+                            "title": "Resolución de {{Problemas}}",
+                            "text": "Abordando desafíos complejos con pensamiento lógico."
+                        },
+                        "hi": {
+                            "title": "समस्या {{समाधान}}",
+                            "text": "तार्किक सोच के साथ जटिल चुनौतियों को हल करना।"
+                        },
+                        "ur": {
+                            "title": "مسئلہ {{حل}}",
+                            "text": "منطقی سوچ کے ساتھ پیچیدہ چیلنجز کا سامنا کرنا۔"
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-solid fa-book-open",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Exploring and Reading {{Books}}",
+                            "text": "Reading philosophy and biographies books."
+                        },
+                        "es": {
+                            "title": "Lectura de {{Libros}}",
+                            "text": "Leyendo filosofía, biografías y libros de crecimiento."
+                        },
+                        "hi": {
+                            "title": "पुस्तकों का {{पठन}}",
+                            "text": "दर्शन, आत्मकथा और विकास की पुस्तकें पढ़ना।"
+                        },
+                        "ur": {
+                            "title": "کتابوں کا {{مطالعہ}}",
+                            "text": "فلسفہ، سوانح حیات اور ترقیاتی کتابیں پڑھنا۔"
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": "",
+                    "faIcon": "fa-solid fa-microphone-lines",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Ram Katha {{Narrative}}",
+                            "text": "Sharing spiritual values and moral teachings."
+                        },
+                        "es": {
+                            "title": "Narrativa de {{Ram Katha}}",
+                            "text": "Compartiendo valores espirituales y enseñanzas morales."
+                        },
+                        "hi": {
+                            "title": "राम कथा {{प्रवचन}}",
+                            "text": "आध्यात्मिक मूल्यों और नैतिक शिक्षाओं को साझा करना।"
+                        },
+                        "ur": {
+                            "title": "رام کتھا {{بیان}}",
+                            "text": "روحانی اقدار اور اخلاقی تعلیمات کا اشتراک کرنا۔"
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "img": "",
+                    "faIcon": "fa-solid fa-pen-nib",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Creative}} Hindi Writing",
+                            "text": "Expressing thoughts through original poetry and prose."
+                        },
+                        "es": {
+                            "title": "Escritura {{Creativa}}",
+                            "text": "Expresando pensamientos a través de poesía y prosa."
+                        },
+                        "hi": {
+                            "title": "{{रचनात्मक}} हिंदी लेखन",
+                            "text": "मौलिक कविताओं और गद्य के माध्यम से विचारों की अभिव्यक्ति।"
+                        },
+                        "ur": {
+                            "title": "تخلیقی {{تحریر}}",
+                            "text": "اصل شاعری اور نثر کے ذریعے خیالات کا اظہار کرنا۔"
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "img": "",
+                    "faIcon": "fa-solid fa-bullhorn",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "Motivational {{Speaking}}",
+                            "text": "Inspiring audiences through powerful storytelling."
+                        },
+                        "es": {
+                            "title": "Oratoria {{Motivacional}}",
+                            "text": "Inspirando al público a través de historias."
+                        },
+                        "hi": {
+                            "title": "मोटिवेशनल {{स्पीकिंग}}",
+                            "text": "प्रभावशाली कहानियों के माध्यम से लोगों को प्रेरित करना।"
+                        },
+                        "ur": {
+                            "title": "موتivational {{اسپیکنگ}}",
+                            "text": "طاقتور کہانیوں کے ذریعے سامعین کو متاثر کرنا۔"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "Languages"
+                },
+                "hi": {
+                    "title": "भाषाएँ"
+                },
+                "ur": {
+                    "title": "زبانیں"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+    {
+        "id": 1,
+        "img": "images/flags/en-us.png",
+        "faIcon": "",
+        "faIconColors": {
+            "bg": "",
+            "fill": ""
+        },
+        "date": {
+            "year": null,
+            "month": null
+        },
+        "percentage": null,
+        "locales": {
+            "en": {
+                "title": "English",
+                "text": "Official speaking proficiency with strong professional communication skills.",
+                "level": "Official Language"
+            },
+            "hi": {
+                "title": "अंग्रेजी",
+                "text": "मजबूत पेशेवर संचार कौशल के साथ आधिकारिक रूप से बोली जाने वाली भाषा।",
+                "level": "आधिकारिक"
+            },
+            "ur": {
+                "title": "انگریزی",
+                "text": "مضبوط پیشہ ورانہ مواصلاتی صلاحیتوں کے ساتھ سرکاری طور پر بولی جانے والی زبان۔",
+                "level": "سرکاری"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "img": "images/flags/hi.png",
+        "faIcon": "",
+        "faIconColors": {
+            "bg": "",
+            "fill": ""
+        },
+        "date": {
+            "year": null,
+            "month": null
+        },
+        "percentage": null,
+        "locales": {
+            "en": {
+                "title": "Hindi",
+                "text": "Native speaker and mother tongue with deep expression and fluency.",
+                "level": "Mother Tongue"
+            },
+            "hi": {
+                "title": "हिंदी",
+                "text": "मातृभाषा और मूल निवासी, जिसमें गहरी अभिव्यक्ति और पूर्ण प्रवाह है।",
+                "level": "मातृभाषा"
+            },
+            "ur": {
+                "title": "ہندی",
+                "text": "مادری زبان، جس میں گہری اظہار خیال اور روانی موجود ہے۔",
+                "level": "مادری زبان"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "img": "images/flags/pk.png",
+        "faIcon": "",
+        "faIconColors": {
+            "bg": "",
+            "fill": ""
+        },
+        "date": {
+            "year": null,
+            "month": null
+        },
+        "percentage": null,
+        "locales": {
+            "en": {
+                "title": "Urdu",
+                "text": "A language of poetry, literature, and aesthetic expression.",
+                "level": "Poetic Art"
+            },
+            "hi": {
+                "title": "उर्दू",
+                "text": "शायरी, साहित्य और कलात्मक अभिव्यक्ति की सुंदर भाषा।",
+                "level": "काव्य भाषा"
+            },
+            "ur": {
+                "title": "اردو",
+                "text": "شاعری، ادب اور جمالیاتی اظہار کی زبان۔",
+                "level": "شاعری کی زبان"
+            }
+        }
+    }
+           ]
+        }
+    ]
+}

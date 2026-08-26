@@ -1,0 +1,206 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Don't hesitate to",
+                "title_long": "{{Contact}} Me"
+            },
+            "es": {
+                "title_short": "Contacto",
+                "title_short_nav": "Contacto",
+                "title_long_prefix": "No dudes en",
+                "title_long": "{{Contácta}}me"
+            },
+            "hi": {
+                "title_short": "संपर्क",
+                "title_short_nav": "संपर्क",
+                "title_long_prefix": "संकोच न करें",
+                "title_long": "मुझसे {{संपर्क}} करें"
+            },
+            "ur": {
+                "title_short": "رابطہ",
+                "title_short_nav": "رابطہ",
+                "title_long_prefix": "ہچکچاہٹ محسوس نہ کریں",
+                "title_long": "مجھ سے {{رابطہ}} کریں"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleContactForm",
+            "settings": {
+                "email_js_public_key": "6J0S-TJuvvgFNUt_q",
+                "email_js_service_id": "service_eot7xi3",
+                "email_js_template_id": "template_gvo55ce"
+            },
+            "locales": {
+                "en": {
+                    "contact_thank_you_title": "{{Thanks}} for the contact!",
+                    "contact_thank_you_body": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
+                    "contact_thank_you_footer": "The reply will be sent to your email address: {{$email}}",
+                    "title": "Send me a {{message}}"
+                },
+                "es": {
+                    "contact_thank_you_title": "{{Gracias}} por el contacto!",
+                    "contact_thank_you_body": "Tu mensaje ha sido recibido, y me pondré en contacto contigo pronto. Aprecio tu tiempo y espero conectarme contigo.",
+                    "contact_thank_you_footer": "La respuesta se enviará a tu dirección de correo electrónico: {{$email}}",
+                    "title": "Envíame un {{mensaje}}"
+                },
+                "hi": {
+                    "contact_thank_you_title": "संपर्क करने के लिए {{धन्यवाद}}!",
+                    "contact_thank_you_body": "आपका संदेश प्राप्त हो गया है, और मैं जल्द ही आपसे संपर्क करूंगा। मैं आपके समय की सराहना करता हूँ!",
+                    "contact_thank_you_footer": "उत्तर आपके ईमेल पते पर भेजा जाएगा: {{$email}}",
+                    "title": "मुझे एक {{संदेश}} भेजें"
+                },
+                "ur": {
+                    "contact_thank_you_title": "رابطہ کرنے کا {{شکریہ}}!",
+                    "contact_thank_you_body": "آپ کا پیغام موصول ہو گیا ہے، اور میں جلد ہی آپ سے رابطہ کروں گا۔ آپ کے وقت کا شکریہ!",
+                    "contact_thank_you_footer": "جواب آپ کے ای میل پتے پر بھیجا جائے گا: {{$email}}",
+                    "title": "मुझे एक {{پیغام}} بھیجیں"
+                }
+            },
+            "items": null
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Or if you {{prefer}}..."},
+                "es": {"title": "O si {{prefieres}}..."},
+                "hi": {"title": "या यदि आप {{पसंद}} करें..."},
+                "ur": {"title": "یا اگر آپ {{ترجیح}} دیں..."}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-phone",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "+91 931-544-7676",
+                    "link": {"href": "tel:919315447676", "tooltipString": "call_me"},
+                    "copyToClipboardButton": true,
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "es": {"title": "Teléfono"},
+                        "hi": {"title": "फ़ोन"},
+                        "ur": {"title": "فون"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "shuklaadarsh319@gmail.com",
+                    "link": {"href": "mailto:shuklaadarsh319@gmail.com", "tooltipString": "email_me"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "es": {"title": "E-mail"},
+                        "hi": {"title": "ईमेल"},
+                        "ur": {"title": "ای میل"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@theadarshshukla",
+                    "link": {"href": "https://www.linkedin.com/in/theadarshshukla/", "tooltipString": "open_website"},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {"title": "LinkedIn"},
+                        "es": {"title": "LinkedIn"},
+                        "hi": {"title": "लिंक्डइन"},
+                        "ur": {"title": "لنکڈ ان"}
+                    }
+                },
+                {
+                   "id": 4,
+    "faIcon": "fa-brands fa-x-twitter",
+    "faIconColors": { "bg": "", "fill": "" },
+    "label": "Adarsh Shukla",
+    "link": {"href": "https://x.com/the_idealshukla", "tooltipString": "open_website"},
+    "copyToClipboardButton": false,
+    "locales": {
+        "en": {"title": "X"},
+        "es": {"title": "X"},
+        "hi": {"title": "एक्स"},
+        "ur": {"title": "ایکس"}
+                        }
+                },
+                {
+                   "id": 5,
+    "faIcon": "fa-brands fa-github",
+    "faIconColors": { "bg": "", "fill": "" },
+    "label": "@adarshshukla",
+    "link": {"href": "https://github.com/The-adarshshukla", "tooltipString": "open_website"},
+    "copyToClipboardButton": false,
+    "locales": {
+        "en": {"title": "GitHub"},
+        "es": {"title": "GitHub"},
+        "hi": {"title": "गिटहब"},
+        "ur": {"title": "گٹ ہب"}
+    }
+                },
+                {
+                    "id": 6,
+    "faIcon": "fa-brands fa-whatsapp",
+    "faIconColors": { "bg": "", "fill": "" },
+    "label": "@adarshshukla",
+    "link": {"href": "https://whatsapp.com/", "tooltipString": "open_website"},
+    "copyToClipboardButton": false,
+    "locales": {
+        "en": {"title": "WhatsApp"},
+        "es": {"title": "WhatsApp"},
+        "hi": {"title": "व्हाट्सएप"},
+        "ur": {"title": "واٹس ایپ"}
+    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleSupportWork",
+            "settings": {
+                "coffee_link": "https://www.buymeacoffee.com/yourusername",
+    "image": "/src/assets/images/my-coffee.png"
+            },
+            "locales": {
+                "en": {
+                    "title": "Support my {{work}}",
+                    "description": "If you find my open-source work helpful or enjoy browsing through my portfolio, please consider supporting my work with a coffee!",
+                    "sub_description": "Your support helps me continue developing and maintaining projects that benefit the community and help me create more useful resources for developers.",
+                    "button_text": "Buy Me a Coffee"
+                },
+                "es": {
+                    "title": "Apoya mi {{trabajo}}",
+                    "description": "Si encuentras útil mi trabajo de código abierto o disfrutas navegando por mi portafolio, ¡considera apoyar mi trabajo con un café!",
+                    "sub_description": "Tu apoyo me ayuda a seguir desarrollando y manteniendo proyectos que benefician a la comunidad.",
+                    "button_text": "Invítame a un café"
+                },
+                "hi": {
+                    "title": "मेरे काम का {{समर्थन}} करें",
+                    "description": "यदि आपको मेरा ओपन-सोर्स काम मददगार लगता है या पोर्टफोलियो देखना पसंद है, तो कृपया कॉफी के साथ समर्थन करने पर विचार करें!",
+                    "sub_description": "आपका समर्थन मुझे ऐसे प्रोजेक्ट विकसित और बनाए रखने में मदद करता है जो समुदाय को लाभ पहुंचाते हैं।",
+                    "button_text": "मुझे एक कॉफी खरीदें"
+                },
+                "ur": {
+                    "title": "میرے کام کی {{تائید}} کریں",
+                    "description": "اگر آپ کو میرا اوپن سورس کام مفید لگتا ہے یا پورٹ فولیو پسند ہے، تو براہ کرم کافی کے ساتھ مدد کرنے پر غور کریں!",
+                    "sub_description": "آپ کی مدد مجھے ایسے پراجیکٹس تیار کرنے میں مدد کرتی ہے جو کمیونٹی کو فائدہ پہنچاتے ہیں۔",
+                    "button_text": "मुझे एक कॉफी खरीदें"
+                }
+            },
+            "items": null
+        }
+    ]
+}

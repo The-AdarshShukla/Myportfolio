@@ -1,0 +1,114 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "hi": {
+                "title_short": "अनुभव",
+                "title_short_nav": "अनुभव",
+                "title_long_prefix": "यह मेरा",
+                "title_long": "{{कार्य}} अनुभव"
+            },
+            "ur": {
+                "title_short": "تجربہ",
+                "title_short_nav": "تجربہ",
+                "title_long_prefix": "یہ میرا",
+                "title_long": "{{کام کا}} تجربہ"
+            },
+            "es": {
+                "title_short": "Experiencia",
+                "title_short_nav": "Experiencia",
+                "title_long_prefix": "Resumen de mi",
+                "title_long": "Experiencia {{Laboral}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+               
+                {
+                    "id": 1,
+                    "img": "images/pictures/fresher.png",
+                    "faIcon": "fa-brands fa-apple",
+                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
+                    "dateStart": {"year": 2024, "month": 8},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Fresher}} But Aspiring Data Analyst",
+                            "province": "Noida",
+                            "country": "India",
+                            "institution": "Maharishi University of Information Technology",
+                            "text": "A fresher with a strong passion for data analysis, eager to apply academic knowledge in real-world scenarios. Skilled in Excel, SQL, Python, and Power BI, with a foundation in data cleaning, visualization, and statistical analysis. Dedicated to continuous learning and delivering actionable insights from complex datasets. My role included:",
+                            "list": [
+                                "Proficient in data analysis tools: Excel, Power BI, SQL, and Python.",
+                                "Strong understanding of data cleaning, transformation, and visualization.",
+                                "Enthusiastic learner with a problem-solving mindset."
+                               
+                            ],
+                            "tags": ["Data Analysis", "Data Cleaning", "Data Visualization"]
+                        },
+                        "hi": {
+                            "title": "{{सीनियर बैकएंड}} डेवलपर",
+                            "province": "कैलिफोर्निया",
+                            "country": "अमेरिका",
+                            "institution": "Apple Inc",
+                            "text": "Apple की सेवाओं के लिए बैकएंड समाधानों को डिज़ाइन और कार्यान्वित करने के लिए डेवलपर्स की एक टीम का नेतृत्व कर रहा हूँ, जिस पर ध्यान केंद्रित किया गया है:",
+                            "list": [
+                                "सुरक्षा",
+                                "वैश्विक स्तर पर लाखों उपयोगकर्ताओं को संभालने के लिए स्केलेबिलिटी",
+                                "RESTful APIs विकसित करना",
+                                "PostgreSQL के साथ डेटाबेस प्रदर्शन को अनुकूलित करना",
+                                "Swift, PHP और GraphQL के साथ सेवाएँ बनाना"
+                            ],
+                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                        },
+                        "ur": {
+                            "title": "{{سینئر بیک اینڈ}} ڈویلپر",
+                            "province": "کیلیفورنیا",
+                            "country": "امریکہ",
+                            "institution": "Apple Inc",
+                            "text": "Apple کی خدمات کے لیے بیک اینڈ حل ڈیزائن اور نافذ کرنے کے لیے ڈویلپرز کی ایک ٹیم کی قیادت کر رہا ہوں، جس میں درج ذیل پر توجہ دی گئی ہے:",
+                            "list": [
+                                "سیکیورٹی",
+                                "عالمی سطح پر لاکھوں صارفین کو سنبھالنے کے لیے اسکیل ایبلٹی",
+                                "RESTful APIs تیار کرنا",
+                                "PostgreSQL کے ساتھ ڈیٹا بیس کی کارکردگی کو بہتر بنانا",
+                                "Swift، PHP اور GraphQL کے ساتھ خدمات کی تعمیر"
+                            ],
+                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                        },
+                        "es": {
+                            "title": "Desarrollador {{Senior Backend}}",
+                            "province": "California",
+                            "country": "EE. UU.",
+                            "institution": "Apple Inc",
+                            "text": "Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:",
+                            "list": [
+                                "Seguridad",
+                                "Escalabilidad para manejar millones de usuarios a nivel global",
+                                "Desarrollo de APIs RESTful",
+                                "Optimización del rendimiento de bases de datos con PostgreSQL",
+                                "Creación de servicios con Swift, PHP y GraphQL"
+                            ],
+                            "tags": ["JavaScript", "React", "NodeJS", "PHP", "REST APIs", "Docker"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

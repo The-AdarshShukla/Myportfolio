@@ -1,0 +1,1777 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Tech Stack",
+                "title_short_nav": "Tech Stack",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Tech Stack}}"
+            },
+            "es": {
+                "title_short": "Tecnología",
+                "title_short_nav": "Tecnología",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Tech Stack}}"
+            },
+            "fr": {
+                "title_short": "Tech Stack",
+                "title_short_nav": "Tech Stack",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Tech Stack}}"
+            },
+            "ko": {
+                "title_short": "기술 스택",
+                "title_short_nav": "기술 스택",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{기술 스택}}입니다"
+            },
+            "hi": {
+                "title_short": "टेक स्टैक",
+                "title_short_nav": "टेक स्टैक",
+                "title_long_prefix": "एक नजर डालें",
+                "title_long": "मेरा {{टेक स्टैक}}"
+            },
+            "ur": {
+                "title_short": "ٹیک اسٹیک",
+                "title_short_nav": "ٹیک اسٹیک",
+                "title_long_prefix": "ایک نظر ڈالیے",
+                "title_long": "میرا {{ٹیک اسٹیک}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTechStack",
+            "locales": {
+                "en": {
+                    "category_all": "All ",
+                    "category_languages": "Languages",
+                    "category_tools": "Tools",
+                    "category_libraries": "Libraries",
+                    "category_databases": "Databases"
+                },
+                "es": {
+                    "category_all": "Todo ",
+                    "category_languages": "Idiomas (5)",
+                    "category_tools": "Herramientas (5)",
+                    "category_libraries": "Librerías (3)",
+                    "category_databases": "Bases de datos (2)"
+                },
+                "fr": {
+                    "category_all": "Tout (15)",
+                    "category_languages": "Langues (5)",
+                    "category_tools": "Outils (5)",
+                    "category_libraries": "Bibliothèques (3)",
+                    "category_databases": "Bases de données (2)"
+                },
+                "ko": {
+                    "category_all": "모두 (15)",
+                    "category_languages": "언어 (5)",
+                    "category_tools": "도구 (5)",
+                    "category_libraries": "라이브러리 (3)",
+                    "category_databases": "데이터베이스 (2)"
+                },
+                "hi": {
+                    "category_all": "सभी (15)",
+                    "category_languages": "भाषाएँ (5)",
+                    "category_tools": "टूल्स (5)",
+                    "category_libraries": "लाइब्ररीज (3)",
+                    "category_databases": "डेटाबेस (2)"
+                },
+                "ur": {
+                    "category_all": "سب (15)",
+                    "category_languages": "زبانیں (5)",
+                    "category_tools": "ٹولز (5)",
+                    "category_libraries": "لائبریریز (3)",
+                    "category_databases": "ڈیٹا بیس (2)"
+                }
+            },
+            "settings": {
+                "categorize_by": [
+                    "category_languages",
+                    "category_tools",
+                    "category_libraries",
+                    "category_databases"
+                ],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_languages",
+                    "img": "images/tech/python.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "text": "Programming Language",
+                            "tags": [
+                                "Language",
+                                "Python"
+                            ]
+                        },
+                        "es": {
+                            "title": "Python",
+                            "text": "Lenguaje de programación",
+                            "tags": [
+                                "Idioma",
+                                "Python"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Python",
+                            "text": "Langage de programmation",
+                            "tags": [
+                                "Langue",
+                                "Python"
+                            ]
+                        },
+                        "ko": {
+                            "title": "Python",
+                            "text": "프로그래밍 언어",
+                            "tags": [
+                                "언어",
+                                "Python"
+                            ]
+                        },
+                        "hi": {
+                            "title": "Python",
+                            "text": "प्रोग्रामिंग भाषा",
+                            "tags": [
+                                "Language",
+                                "Python"
+                            ]
+                        },
+                        "ur": {
+                            "title": "Python",
+                            "text": "پروگرامنگ زبان",
+                            "tags": [
+                                "Language",
+                                "Python"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_languages",
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#F7DF1E"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript",
+                            "text": "Programming Language",
+                            "tags": [
+                                "Language",
+                                "JavaScript"
+                            ]
+                        },
+                        "es": {
+                            "title": "JavaScript",
+                            "text": "Lenguaje de programación",
+                            "tags": [
+                                "Idioma",
+                                "JavaScript"
+                            ]
+                        },
+                        "fr": {
+                            "title": "JavaScript",
+                            "text": "Langage de programmation",
+                            "tags": [
+                                "Langue",
+                                "JavaScript"
+                            ]
+                        },
+                        "ko": {
+                            "title": "JavaScript",
+                            "text": "프로그래밍 언어",
+                            "tags": [
+                                "언어",
+                                "JavaScript"
+                            ]
+                        },
+                        "hi": {
+                            "title": "JavaScript",
+                            "text": "प्रोग्रामिंग भाषा",
+                            "tags": [
+                                "Language",
+                                "JavaScript"
+                            ]
+                        },
+                        "ur": {
+                            "title": "JavaScript",
+                            "text": "پروگرامنگ زبان",
+                            "tags": [
+                                "Language",
+                                "JavaScript"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_languages",
+                    "img": "images/tech/Java1.png",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#007396"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Java",
+                            "text": "Programming Language",
+                            "tags": [
+                                "Language",
+                                "Java"
+                            ]
+                        },
+                        "es": {
+                            "title": "Java",
+                            "text": "Lenguaje de programación",
+                            "tags": [
+                                "Idioma",
+                                "Java"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Java",
+                            "text": "Langage de programmation",
+                            "tags": [
+                                "Langue",
+                                "Java"
+                            ]
+                        },
+                        "ko": {
+                            "title": "Java",
+                            "text": "프로그래밍 언어",
+                            "tags": [
+                                "언어",
+                                "Java"
+                            ]
+                        },
+                        "hi": {
+                            "title": "Java",
+                            "text": "प्रोग्रामिंग भाषा",
+                            "tags": [
+                                "Language",
+                                "Java"
+                            ]
+                        },
+                        "ur": {
+                            "title": "Java",
+                            "text": "پروگرامنگ زبان",
+                            "tags": [
+                                "Language",
+                                "Java"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_languages",
+                    "img": "images/tech/html1.png",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#E34F26"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HTML5",
+                            "text": "Markup Language",
+                            "tags": [
+                                "Web",
+                                "HTML5"
+                            ]
+                        },
+                        "es": {
+                            "title": "HTML5",
+                            "text": "Lenguaje de marcado",
+                            "tags": [
+                                "Web",
+                                "HTML5"
+                            ]
+                        },
+                        "fr": {
+                            "title": "HTML5",
+                            "text": "Langage de balisage",
+                            "tags": [
+                                "Web",
+                                "HTML5"
+                            ]
+                        },
+                        "ko": {
+                            "title": "HTML5",
+                            "text": "마크업 언어",
+                            "tags": [
+                                "Web",
+                                "HTML5"
+                            ]
+                        },
+                        "hi": {
+                            "title": "HTML5",
+                            "text": "मार्कअप भाषा",
+                            "tags": [
+                                "Web",
+                                "HTML5"
+                            ]
+                        },
+                        "ur": {
+                            "title": "HTML5",
+                            "text": "مارک اپ زبان",
+                            "tags": [
+                                "Web",
+                                "HTML5"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_languages",
+                    "img": "images/tech/css.png",
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#1572B6"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CSS3",
+                            "text": "Stylesheet Language",
+                            "tags": [
+                                "Web",
+                                "CSS3"
+                            ]
+                        },
+                        "es": {
+                            "title": "CSS3",
+                            "text": "Lenguaje de hojas de estilo",
+                            "tags": [
+                                "Web",
+                                "CSS3"
+                            ]
+                        },
+                        "fr": {
+                            "title": "CSS3",
+                            "text": "Langage de feuille de style",
+                            "tags": [
+                                "Web",
+                                "CSS3"
+                            ]
+                        },
+                        "ko": {
+                            "title": "CSS3",
+                            "text": "스타일시트 언어",
+                            "tags": [
+                                "Web",
+                                "CSS3"
+                            ]
+                        },
+                        "hi": {
+                            "title": "CSS3",
+                            "text": "स्टाइलशीट भाषा",
+                            "tags": [
+                                "Web",
+                                "CSS3"
+                            ]
+                        },
+                        "ur": {
+                            "title": "CSS3",
+                            "text": "اسٹائل شیٹ زبان",
+                            "tags": [
+                                "Web",
+                                "CSS3"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_tools",
+                    "img": "images/tech/git.png",
+                    "faIcon": "fa-brands fa-git-alt",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#F05032"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "text": "Version Control",
+                            "tags": [
+                                "Tool",
+                                "Git"
+                            ]
+                        },
+                        "es": {
+                            "title": "Git",
+                            "text": "Control de versiones",
+                            "tags": [
+                                "Herramienta",
+                                "Git"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Git",
+                            "text": "Contrôle de version",
+                            "tags": [
+                                "Outil",
+                                "Git"
+                            ]
+                        },
+                        "ko": {
+                            "title": "Git",
+                            "text": "버전 관리",
+                            "tags": [
+                                "도구",
+                                "Git"
+                            ]
+                        },
+                        "hi": {
+                            "title": "Git",
+                            "text": "वर्जन कंट्रोल",
+                            "tags": [
+                                "Tool",
+                                "Git"
+                            ]
+                        },
+                        "ur": {
+                            "title": "Git",
+                            "text": "ورژن کنٹرول",
+                            "tags": [
+                                "Tool",
+                                "Git"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_tools",
+                    "img": "images/tech/github1.png",
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "GitHub",
+                            "text": "Code Hosting Platform",
+                            "tags": [
+                                "Tool",
+                                "GitHub"
+                            ]
+                        },
+                        "es": {
+                            "title": "GitHub",
+                            "text": "Plataforma de alojamiento",
+                            "tags": [
+                                "Herramienta",
+                                "GitHub"
+                            ]
+                        },
+                        "fr": {
+                            "title": "GitHub",
+                            "text": "Plateforme d'hébergement",
+                            "tags": [
+                                "Outil",
+                                "GitHub"
+                            ]
+                        },
+                        "ko": {
+                            "title": "GitHub",
+                            "text": "코드 호스팅 플랫폼",
+                            "tags": [
+                                "도구",
+                                "GitHub"
+                            ]
+                        },
+                        "hi": {
+                            "title": "GitHub",
+                            "text": "कोड होस्टिंग प्लेटफॉर्म",
+                            "tags": [
+                                "Tool",
+                                "GitHub"
+                            ]
+                        },
+                        "ur": {
+                            "title": "GitHub",
+                            "text": "کوڈ ہوسٹنگ",
+                            "tags": [
+                                "Tool",
+                                "GitHub"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_tools",
+                    "img": "images/tech/vscode.png",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#007ACC"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "VS Code",
+                            "text": "Code Editor",
+                            "tags": [
+                                "Tool",
+                                "VS Code"
+                            ]
+                        },
+                        "es": {
+                            "title": "VS Code",
+                            "text": "Editor de código",
+                            "tags": [
+                                "Herramienta",
+                                "VS Code"
+                            ]
+                        },
+                        "fr": {
+                            "title": "VS Code",
+                            "text": "Éditeur de code",
+                            "tags": [
+                                "Outil",
+                                "VS Code"
+                            ]
+                        },
+                        "ko": {
+                            "title": "VS Code",
+                            "text": "코드 에디터",
+                            "tags": [
+                                "도구",
+                                "VS Code"
+                            ]
+                        },
+                        "hi": {
+                            "title": "VS Code",
+                            "text": "कोड एडिटर",
+                            "tags": [
+                                "Tool",
+                                "VS Code"
+                            ]
+                        },
+                        "ur": {
+                            "title": "VS Code",
+                            "text": "کوڈ ایڈیٹر",
+                            "tags": [
+                                "Tool",
+                                "VS Code"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_tools",
+                    "img": "",
+                    "faIcon": "fa-brands fa-windows",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#2496ED"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Window",
+                            "text": "Containerization Tool",
+                            "tags": [
+                                "Tool",
+                                "Docker"
+                            ]
+                        },
+                        "es": {
+                            "title": "Docker",
+                            "text": "Herramienta de contenedores",
+                            "tags": [
+                                "Herramienta",
+                                "Docker"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Docker",
+                            "text": "Outil de conteneurisation",
+                            "tags": [
+                                "Outil",
+                                "Docker"
+                            ]
+                        },
+                        "ko": {
+                            "title": "Docker",
+                            "text": "컨테이너화 도구",
+                            "tags": [
+                                "도구",
+                                "Docker"
+                            ]
+                        },
+                        "hi": {
+                            "title": "Docker",
+                            "text": "कंटेराइजेशन टूल",
+                            "tags": [
+                                "Tool",
+                                "Docker"
+                            ]
+                        },
+                        "ur": {
+                            "title": "Docker",
+                            "text": "کنٹینرائزیشن ٹول",
+                            "tags": [
+                                "Tool",
+                                "Docker"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_tools",
+                    "img": "images/tech/terminal.png",
+                    "faIcon": "fa-solid fa-terminal",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#4EAA25"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Terminal",
+                            "text": "Command Line Interface",
+                            "tags": [
+                                "Tool",
+                                "Terminal"
+                            ]
+                        },
+                        "es": {
+                            "title": "Terminal",
+                            "text": "Interfaz de línea de comandos",
+                            "tags": [
+                                "Herramienta",
+                                "Terminal"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Terminal",
+                            "text": "Interface de ligne de commande",
+                            "tags": [
+                                "Outil",
+                                "Terminal"
+                            ]
+                        },
+                        "ko": {
+                            "title": "Terminal",
+                            "text": "명령어 인터페이스",
+                            "tags": [
+                                "도구",
+                                "Terminal"
+                            ]
+                        },
+                        "hi": {
+                            "title": "Terminal",
+                            "text": "कमांड लाइन इंटरफेस",
+                            "tags": [
+                                "Tool",
+                                "Terminal"
+                            ]
+                        },
+                        "ur": {
+                            "title": "Terminal",
+                            "text": "کمانڈ لائن",
+                            "tags": [
+                                "Tool",
+                                "Terminal"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_libraries",
+                    "img": "images/tech/react.png",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#61DAFB"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "text": "Frontend Library",
+                            "tags": [
+                                "Library",
+                                "React"
+                            ]
+                        },
+                        "es": {
+                            "title": "React",
+                            "text": "Librería Frontend",
+                            "tags": [
+                                "Librería",
+                                "React"
+                            ]
+                        },
+                        "fr": {
+                            "title": "React",
+                            "text": "Bibliothèque Frontend",
+                            "tags": [
+                                "Bibliothèque",
+                                "React"
+                            ]
+                        },
+                        "ko": {
+                            "title": "React",
+                            "text": "프론트엔드 라이브러리",
+                            "tags": [
+                                "라이브러리",
+                                "React"
+                            ]
+                        },
+                        "hi": {
+                            "title": "React",
+                            "text": "फ्रंटएंड लाइब्रेरी",
+                            "tags": [
+                                "Library",
+                                "React"
+                            ]
+                        },
+                        "ur": {
+                            "title": "React",
+                            "text": "فرنٹ اینڈ لائبریری",
+                            "tags": [
+                                "Library",
+                                "React"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "categoryId": "category_libraries",
+                    "img": "images/tech/powerbi.png",
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Power BI",
+                            "text": "JavaScript Runtime",
+                            "tags": [
+                                "Library",
+                                "Node.js"
+                            ]
+                        },
+                        "es": {
+                            "title": "Node.js",
+                            "text": "Entorno de ejecución",
+                            "tags": [
+                                "Librería",
+                                "Node.js"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Node.js",
+                            "text": "Environnement d'exécution",
+                            "tags": [
+                                "Bibliothèque",
+                                "Node.js"
+                            ]
+                        },
+                        "ko": {
+                            "title": "Node.js",
+                            "text": "자바스크립트 런타임",
+                            "tags": [
+                                "라이브러리",
+                                "Node.js"
+                            ]
+                        },
+                        "hi": {
+                            "title": "Node.js",
+                            "text": "जावास्क्रिप्ट रनटाइम",
+                            "tags": [
+                                "Library",
+                                "Node.js"
+                            ]
+                        },
+                        "ur": {
+                            "title": "Node.js",
+                            "text": "جاوا اسکرپٹ رن ٹائم",
+                            "tags": [
+                                "Library",
+                                "Node.js"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 13,
+                    "categoryId": "category_libraries",
+                    "img": "images/tech/Pandas.png",
+                    "faIcon": "fa-solid fa-cubes",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#7952B3"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Pandas",
+                            "text": "CSS Framework",
+                            "tags": [
+                                "Library",
+                                "Bootstrap"
+                            ]
+                        },
+                        "es": {
+                            "title": "Bootstrap",
+                            "text": "Framework CSS",
+                            "tags": [
+                                "Librería",
+                                "Bootstrap"
+                            ]
+                        },
+                        "fr": {
+                            "title": "Bootstrap",
+                            "text": "Framework CSS",
+                            "tags": [
+                                "Bibliothèque",
+                                "Bootstrap"
+                            ]
+                        },
+                        "ko": {
+                            "title": "Bootstrap",
+                            "text": "CSS 프레임워크",
+                            "tags": [
+                                "라이브러리",
+                                "Bootstrap"
+                            ]
+                        },
+                        "hi": {
+                            "title": "Bootstrap",
+                            "text": "सीएसएस फ्रेमवर्क",
+                            "tags": [
+                                "Library",
+                                "Bootstrap"
+                            ]
+                        },
+                        "ur": {
+                            "title": "Bootstrap",
+                            "text": "سی ایس ایس فریم ورک",
+                            "tags": [
+                                "Library",
+                                "Bootstrap"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 14,
+                    "categoryId": "category_databases",
+                    "img": "images/tech/mysql.png",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#4479A1"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "text": "Relational Database",
+                            "tags": [
+                                "Database",
+                                "MySQL"
+                            ]
+                        },
+                        "es": {
+                            "title": "MySQL",
+                            "text": "Base de datos relacional",
+                            "tags": [
+                                "Base de datos",
+                                "MySQL"
+                            ]
+                        },
+                        "fr": {
+                            "title": "MySQL",
+                            "text": "Base de données relationnelle",
+                            "tags": [
+                                "Base de données",
+                                "MySQL"
+                            ]
+                        },
+                        "ko": {
+                            "title": "MySQL",
+                            "text": "관계형 데이터베이스",
+                            "tags": [
+                                "데이터베이스",
+                                "MySQL"
+                            ]
+                        },
+                        "hi": {
+                            "title": "MySQL",
+                            "text": "रिलेशनल डेटाबेस",
+                            "tags": [
+                                "Database",
+                                "MySQL"
+                            ]
+                        },
+                        "ur": {
+                            "title": "MySQL",
+                            "text": "ڈیٹا بیس",
+                            "tags": [
+                                "Database",
+                                "MySQL"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_databases",
+                    "img": "images/tech/mongodb.png",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#47A248"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB",
+                            "text": "NoSQL Database",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "es": {
+                            "title": "MongoDB",
+                            "text": "Base de datos NoSQL",
+                            "tags": [
+                                "Base de datos",
+                                "MongoDB"
+                            ]
+                        },
+                        "fr": {
+                            "title": "MongoDB",
+                            "text": "Base de données NoSQL",
+                            "tags": [
+                                "Base de données",
+                                "MongoDB"
+                            ]
+                        },
+                        "ko": {
+                            "title": "MongoDB",
+                            "text": "NoSQL 데이터베이스",
+                            "tags": [
+                                "데이터베이스",
+                                "MongoDB"
+                            ]
+                        },
+                        "hi": {
+                            "title": "MongoDB",
+                            "text": "नोएसक्यूएल डेटाबेस",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "ur": {
+                            "title": "MongoDB",
+                            "text": "ڈیٹا بیس",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_databases",
+                    "img": "images/tech/numpy.png",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#47A248"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Numpy",
+                            "text": "NoSQL Database",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "es": {
+                            "title": "MongoDB",
+                            "text": "Base de datos NoSQL",
+                            "tags": [
+                                "Base de datos",
+                                "MongoDB"
+                            ]
+                        },
+                        "fr": {
+                            "title": "MongoDB",
+                            "text": "Base de données NoSQL",
+                            "tags": [
+                                "Base de données",
+                                "MongoDB"
+                            ]
+                        },
+                        "ko": {
+                            "title": "MongoDB",
+                            "text": "NoSQL 데이터베이스",
+                            "tags": [
+                                "데이터베이스",
+                                "MongoDB"
+                            ]
+                        },
+                        "hi": {
+                            "title": "MongoDB",
+                            "text": "नोएसक्यूएल डेटाबेस",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "ur": {
+                            "title": "MongoDB",
+                            "text": "ڈیٹا بیس",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_databases",
+                    "img": "images/tech/googlesheet.png",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#47A248"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Googlesheet",
+                            "text": "NoSQL Database",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "es": {
+                            "title": "MongoDB",
+                            "text": "Base de datos NoSQL",
+                            "tags": [
+                                "Base de datos",
+                                "MongoDB"
+                            ]
+                        },
+                        "fr": {
+                            "title": "MongoDB",
+                            "text": "Base de données NoSQL",
+                            "tags": [
+                                "Base de données",
+                                "MongoDB"
+                            ]
+                        },
+                        "ko": {
+                            "title": "MongoDB",
+                            "text": "NoSQL 데이터베이스",
+                            "tags": [
+                                "데이터베이스",
+                                "MongoDB"
+                            ]
+                        },
+                        "hi": {
+                            "title": "MongoDB",
+                            "text": "नोएसक्यूएल डेटाबेस",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "ur": {
+                            "title": "MongoDB",
+                            "text": "ڈیٹا بیس",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_databases",
+                    "img": "images/tech/matplotlib.png",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#47A248"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Matplotlib",
+                            "text": "NoSQL Database",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "es": {
+                            "title": "MongoDB",
+                            "text": "Base de datos NoSQL",
+                            "tags": [
+                                "Base de datos",
+                                "MongoDB"
+                            ]
+                        },
+                        "fr": {
+                            "title": "MongoDB",
+                            "text": "Base de données NoSQL",
+                            "tags": [
+                                "Base de données",
+                                "MongoDB"
+                            ]
+                        },
+                        "ko": {
+                            "title": "MongoDB",
+                            "text": "NoSQL 데이터베이스",
+                            "tags": [
+                                "데이터베이스",
+                                "MongoDB"
+                            ]
+                        },
+                        "hi": {
+                            "title": "MongoDB",
+                            "text": "नोएसक्यूएल डेटाबेस",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "ur": {
+                            "title": "MongoDB",
+                            "text": "ڈیٹا بیس",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_databases",
+                    "img": "images/tech/jupyter.png",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#47A248"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Jupyter Notebook",
+                            "text": "NoSQL Database",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "es": {
+                            "title": "MongoDB",
+                            "text": "Base de datos NoSQL",
+                            "tags": [
+                                "Base de datos",
+                                "MongoDB"
+                            ]
+                        },
+                        "fr": {
+                            "title": "MongoDB",
+                            "text": "Base de données NoSQL",
+                            "tags": [
+                                "Base de données",
+                                "MongoDB"
+                            ]
+                        },
+                        "ko": {
+                            "title": "MongoDB",
+                            "text": "NoSQL 데이터베이스",
+                            "tags": [
+                                "데이터베이스",
+                                "MongoDB"
+                            ]
+                        },
+                        "hi": {
+                            "title": "MongoDB",
+                            "text": "नोएसक्यूएल डेटाबेस",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "ur": {
+                            "title": "MongoDB",
+                            "text": "ڈیٹا بیس",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_databases",
+                    "img": "images/tech/excel.png",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#47A248"
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Excel",
+                            "text": "NoSQL Database",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "es": {
+                            "title": "MongoDB",
+                            "text": "Base de datos NoSQL",
+                            "tags": [
+                                "Base de datos",
+                                "MongoDB"
+                            ]
+                        },
+                        "fr": {
+                            "title": "MongoDB",
+                            "text": "Base de données NoSQL",
+                            "tags": [
+                                "Base de données",
+                                "MongoDB"
+                            ]
+                        },
+                        "ko": {
+                            "title": "MongoDB",
+                            "text": "NoSQL 데이터베이스",
+                            "tags": [
+                                "데이터베이스",
+                                "MongoDB"
+                            ]
+                        },
+                        "hi": {
+                            "title": "MongoDB",
+                            "text": "नोएसक्यूएल डेटाबेस",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        },
+                        "ur": {
+                            "title": "MongoDB",
+                            "text": "ڈیٹا بیس",
+                            "tags": [
+                                "Database",
+                                "MongoDB"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "Backend Stack"
+                },
+                "hi": {
+                    "title": "बैकएंड स्टैक"
+                },
+                "ur": {
+                    "title": "بیک اینڈ اسٹیک"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#339933"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 3
+                    },
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "text": "Certified developer by Node.js Foundation.",
+                            "level": ""
+                        },
+                        "hi": {
+                            "text": "Node.js फाउंडेशन द्वारा प्रमाणित डेवलपर।"
+                        },
+                        "ur": {
+                            "text": "نوڈ جے ایس فاؤنڈیشن سے مصدقہ ڈویلپر۔"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#0295c2",
+                        "fillLight": "#007396"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 8
+                    },
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "Java",
+                            "text": "Oracle certified Java developer with a strong understanding of its ecosystem.",
+                            "level": ""
+                        },
+                        "hi": {
+                            "text": "ओरेकल प्रमाणित जावा डेवलपर, इसके इकोसिस्टम की मजबूत समझ के साथ।"
+                        },
+                        "ur": {
+                            "text": "اوریکل سے مصدقہ جاوا ڈویلپر، اس کے نظام کی مضبوط سمجھ کے ساتھ۔"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#4479A1"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "MySQL",
+                            "text": "I can manage and optimize MySQL databases for performance and reliability.",
+                            "level": ""
+                        },
+                        "hi": {
+                            "text": "मैं प्रदर्शन और विश्वसनीयता के लिए MySQL डेटाबेस का प्रबंधन और अनुकूलन कर सकता हूँ।"
+                        },
+                        "ur": {
+                            "text": "میں کارکردگی اور وشوسنیয়تا کے لیے MySQL ڈیٹا بیس کا انتظام کر سکتا ہوں۔"
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#306998"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 8
+                    },
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "text": "Data analysis and machine learning with Python.",
+                            "level": ""
+                        },
+                        "hi": {
+                            "text": "पायथन के साथ डेटा विश्लेषण और मशीन लर्निंग।"
+                        },
+                        "ur": {
+                            "text": "پائথন کے ساتھ ڈیٹا تجزیہ اور مشین لرننگ۔"
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#47A248"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 5
+                    },
+                    "percentage": 50,
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB",
+                            "text": "NoSQL database management.",
+                            "level": ""
+                        },
+                        "hi": {
+                            "title": "MongoDB",
+                            "text": "NoSQL डेटाबेस प्रबंधन।",
+                            "level": ""
+                        },
+                        "ur": {
+                            "title": "MongoDB",
+                            "text": "NoSQL ڈیٹا بیس مینجمنٹ۔",
+                            "level": ""
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "img": "",
+                    "faIcon": "fa-brands fa-git",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#F05032"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 5
+                    },
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "text": "Complete understanding of Git for version control and collaboration.",
+                            "level": ""
+                        },
+                        "hi": {
+                            "text": "वर्जन कंट्रोल और सहयोग के लिए Git की पूरी समझ।"
+                        },
+                        "ur": {
+                            "text": "ورژن کنٹرول اور تعاون کے لیے Git کی مکمل سمجھ۔"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {
+                    "title": "Frontend Stack"
+                },
+                "hi": {
+                    "title": "फ्रंटएंड स्टैक"
+                },
+                "ur": {
+                    "title": "فرنٹ اینڈ اسٹیک"
+                }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#E34F26"
+                    },
+                    "date": {
+                        "year": 2022,
+                        "month": 9
+                    },
+                    "percentage": 100,
+                    "locales": {
+                        "en": {
+                            "title": "HTML 5",
+                            "text": "I am proficient in HTML5 for building structured web pages.",
+                            "level": ""
+                        },
+                        "hi": {
+                            "text": "मैं संरचित वेब पेज बनाने के लिए HTML5 में कुशल हूँ।"
+                        },
+                        "ur": {
+                            "text": "میں ویب پیجز بنانے کے لیے HTML5 میں ماہر ہوں۔"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#1572B6"
+                    },
+                    "date": {
+                        "year": 2022,
+                        "month": 10
+                    },
+                    "percentage": 65,
+                    "locales": {
+                        "en": {
+                            "title": "CSS 3",
+                            "text": "I can create responsive and visually appealing designs using CSS3.",
+                            "level": ""
+                        },
+                        "hi": {
+                            "text": "मैं CSS3 का उपयोग करके आकर्षक डिज़ाइन बना सकता हूँ।"
+                        },
+                        "ur": {
+                            "text": "میں CSS3 کا استعمال کرکے خوبصورت ڈیزائن بنا سکتا ہوں۔"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#F7DF1E",
+                        "fillLight": "#a69617"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 3
+                    },
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "text": "Mastered JavaScript ES6+ for dynamic and interactive web applications.",
+                            "level": ""
+                        },
+                        "hi": {
+                            "text": "डायनेमिक वेब अनुप्रयोगों के लिए JavaScript ES6+ में महारत हासिल की।"
+                        },
+                        "ur": {
+                            "text": "ڈائنامک ویب ایپلی کیشنز کے لیے JavaScript ES6+ میں مہارت حاصل کی۔"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#61DAFB",
+                        "fillLight": "#317385"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "text": "Complete understanding of React for building modern web applications.",
+                            "level": ""
+                        },
+                        "hi": {
+                            "text": "आधुनिक वेब अनुप्रयोगों के निर्माण के लिए React की पूरी समझ।"
+                        },
+                        "ur": {
+                            "text": "جدید ویب ایپلی کیشنز بنانے کے لیے React کی مکمل سمجھ۔"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-vuejs",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#4FC08D",
+                        "fillLight": "#2b825b"
+                    },
+                    "date": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "percentage": 40,
+                    "locales": {
+                        "en": {
+                            "title": "Vue.js",
+                            "text": "Good understanding of Vue.js for building interactive user interfaces.",
+                            "level": ""
+                        },
+                        "hi": {
+                            "text": "इंटरैक्टिव यूजर इंटरफेस बनाने के लिए Vue.js की अच्छी समझ।"
+                        },
+                        "ur": {
+                            "text": "صارف انٹرفیس بنانے کے لیے Vue.js کی اچھی سمجھ۔"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

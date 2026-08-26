@@ -1,0 +1,66 @@
+{
+    "name": "Adarsh Shukla",
+
+    "profilePictureUrl": "images/pictures/b.jpeg",
+    "resumePdfUrl": "docs/assets/adarshshuklaresume.pdf",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Adarsh Shukla",
+            "localized_name_stylized": "[[Adarsh {{Shukla}}]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "B.Tech Student",
+                "A Data Analyst",
+                "Full Stack Developer",
+                "Software Engineer",
+                "Hindi Poet"
+            ],
+            "name_pronunciation_ipa": "Adarsh Shukla",
+            "name_pronunciation_audio_url": ""
+        },
+        "hi": {
+            "localized_name": "आदर्श शुक्ला",
+            "localized_name_stylized": "[[आदर्श {{शुक्ला}}]]",
+            "status_message_available_for_freelance": "फ्रीलांस के लिए उपलब्ध हूँ!",
+            "roles": [
+                "फुल स्टैक डेवलपर",
+                "फ्रंटएंड डेवलपर",
+                "सॉफ्टवेयर इंजीनियर",
+                "डाटा ऐनलिस्ट "
+            ],
+            "name_pronunciation_ipa": "/आदर्श शुक्ला/",
+            "name_pronunciation_audio_url": ""
+        },
+        "ur": {
+            "localized_name": "آدرش شکلا",
+            "localized_name_stylized": "[[آدرش {{شکلا}}]]",
+            "status_message_available_for_freelance": "فری لانس کے لیے دستیاب ہوں!",
+            "roles": [
+                "فل اسٹیک ڈویلपर",
+                "فرنٹ اینڈ ڈویلपर",
+                "سافٹ ویئر انجینئر",
+                "یو آئی / یو ایکس ڈیزائنर"
+            ],
+            "name_pronunciation_ipa": "/آدرش شکلا/",
+            "name_pronunciation_audio_url": ""
+        },
+        "es": {
+            "localized_name": "Adarsh Shukla",
+            "localized_name_stylized": "[[Adarsh {{Shukla}}]]",
+            "status_message_available_for_freelance": "¡Disponible para freelance!",
+            "roles": [
+                "Desarrollador Full Stack",
+                "Desarrollador Frontend",
+                "Ingeniero de Software",
+                "Diseñador UI/UX"
+            ],
+            "name_pronunciation_ipa": "/adarsh shukla/",
+            "name_pronunciation_audio_url": ""
+        }
+    }
+}
