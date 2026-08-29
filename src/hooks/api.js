@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Adarsh Shukla
  * @date 2025-05-10
  * @description This hook provides methods to interact with external APIs.
  */
@@ -98,7 +98,7 @@ const analytics = {
      * @returns {Promise<void>}
      */
     reportVisit: async() => {
-        await fetch("https://admin.ryanbalieiro.com/api/analytics/mock", {
+        await fetch("https://www.adarshshukla.in", {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

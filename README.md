@@ -2,11 +2,9 @@
     <img src="docs/assets/logo-large.png" width="120">
 </p>
 
-<<<<<<< HEAD
+
 # [Personal Portfolio](https://www.adarshshukla.in) by Adarsh Shukla
-=======
-# [PERSONAL PORTFOLIO](https://www.adarshshukla.in/#about) BY ADARSH SHUKLA
->>>>>>> 051903d4c184e20cefd8fd7dd29c3bb816f4805f
+
 
 A sleek, futuristic portfolio – built with **React** and **Bootstrap 5**.
 
@@ -69,37 +67,37 @@ npm run dev
 
 Follow this step-by-step guide to customize the template with your own content and styles. You can either read the documentation or watch the interactive video tutorials:
 
-| #    | Title                       | Docs                                                                    |          
-|------|-----------------------------|-------------------------------------------------------------------------|
-| 1    | Setting up the project      | [See Docs](./docs/tutorials/TUTORIAL_01_SETTING_UP_THE_PROJECT.md)      | 
-| 2    | Configuring settings.json   | [See Docs](./docs/tutorials/TUTORIAL_02_CONFIGURING_SETTINGS_JSON.md)   | 
-| 3    | Titles and Colors           | [See Docs](./docs/tutorials/TUTORIAL_03_TITLES_AND_COLORS.md)           | 
-| 4    | Profile and Strings         | [See Docs](./docs/tutorials/TUTORIAL_04_PROFILE_AND_STRINGS.md)         |
-| 5    | Categories and Sections     | [See Docs](./docs/tutorials/TUTORIAL_05_CATEGORIES_AND_SECTIONS.md)     | 
-| 6    | Section Titles              | [See Docs](./docs/tutorials/TUTORIAL_06_SECTION_TITLES.md)              | 
-| 7    | Section Articles            | [See Docs](./docs/tutorials/TUTORIAL_07_SECTION_ARTICLES.md)            |
-| 8    | ArticleInlineList           | [See Docs](./docs/tutorials/TUTORIAL_08_ARTICLE_INLINE_LIST.md)         | 
-| 9    | ArticleText                 | [See Docs](./docs/tutorials/TUTORIAL_09_ARTICLE_TEXTS.md)               |
-| 10   | ArticleCards                | [See Docs](./docs/tutorials/TUTORIAL_10_ARTICLE_CARDS.md)               | 
-| 11   | ArticleSkills               | [See Docs](./docs/tutorials/TUTORIAL_11_ARTICLE_SKILLS.md)              | 
-| 12   | ArticleTimeline             | [See Docs](./docs/tutorials/TUTORIAL_12_ARTICLE_TIMELINE.md)            | 
-| 13   | ArticleStack                | [See Docs](./docs/tutorials/TUTORIAL_13_ARTICLE_STACK.md)               |
-| 14   | ArticlePortfolio            | [See Docs](./docs/tutorials/TUTORIAL_14_ARTICLE_PORTFOLIO.md)           |
-| 15   | ArticleTestimonials         | [See Docs](./docs/tutorials/TUTORIAL_15_ARTICLE_TESTIMONIALS.md)        | 
-| 16   | ArticleInfoList             | [See Docs](./docs/tutorials/TUTORIAL_16_ARTICLE_INFO_LIST.md)           | 
-| 17   | ArticleFacts                | [See Docs](./docs/tutorials/TUTORIAL_17_ARTICLE_FACTS.md)               | 
-| 18   | ArticleThreads              | [See Docs](./docs/tutorials/TUTORIAL_18_ARTICLE_THREADS.md)             |
-| 19   | ArticleContactForm          | [See Docs](./docs/tutorials/TUTORIAL_19_ARTICLE_CONTACT_FORM.md)        | 
-| 20   | Categorizing article items  | [See Docs](./docs/tutorials/TUTORIAL_20_CATEGORIZING_ARTICLE_ITEMS.md)  | 
-| 21   | Deploying for production    | [See Docs](./docs/tutorials/TUTORIAL_21_DEPLOYING_FOR_PRODUCTION.md)    |
+| #    | Title                       |       
+|------|-----------------------------|
+| 1    | Setting up the project      | 
+| 2    | Configuring settings.json   | 
+| 3    | Titles and Colors           | 
+| 4    | Profile and Strings         | 
+| 5    | Categories and Sections     |
+| 6    | Section Titles              | 
+| 7    | Section Articles            | 
+| 8    | ArticleInlineList           | 
+| 9    | ArticleText                 | 
+| 10   | ArticleCards                | 
+| 11   | ArticleSkills               | 
+| 12   | ArticleTimeline             | 
+| 13   | ArticleStack                | 
+| 14   | ArticlePortfolio            |
+| 15   | ArticleTestimonials         | 
+| 16   | ArticleInfoList             |
+| 17   | ArticleFacts                | 
+| 18   | ArticleThreads              |
+| 19   | ArticleContactForm          | 
+| 20   | Categorizing article items  | 
+| 21   | Deploying for production    |
 
 ### Bonus Tutorials
 
 Follow these additional tutorials to further enhance your portfolio with advanced features:
 
-| #    | Title                            | Docs                                                                               |
-|------|----------------------------------|------------------------------------------------------------------------------------|
-| 22   | Creating your own custom article | [See Docs](./docs/tutorials/TUTORIAL_22_BONUS_CREATING_YOUR_OWN_CUSTOM_ARTICLE.md) | 
+| #    | Title                            |
+|------|----------------------------------|
+| 22   | Creating your own custom article |
 
 ## About
 
@@ -119,3 +117,5 @@ Additional frameworks and plugins used include:
 Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE) license, providing complete freedom for utilization. Feel free to enhance and adapt it to suit your needs.
 
 Oh... and if you like this template, don't forget to **give it a ⭐** :)
+
+

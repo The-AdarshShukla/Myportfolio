@@ -10,7 +10,7 @@ export default defineConfig({
 })
 ```
 
-In simple terms, if you consider GitHub hosting the GitHub Pages site for this repo at the URL `https://ryanbalieiro.github.io/react-portfolio-template/`, the correct base directory to set is `/react-portfolio-template/`.
+In simple terms, if you consider GitHub hosting the GitHub Pages site for this repo at the URL `https://github.com/The-AdarshShukla/Myportfolio`, the correct base directory to set is `/react-portfolio-template/`.
 
 If you're deploying to Netlify or your own custom domain where your website is located at the root, you can leave the `base` setting as `'/'`.
 
