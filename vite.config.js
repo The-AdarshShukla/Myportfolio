@@ -9,7 +9,6 @@ export default defineConfig({
         VitePWA({
             registerType: 'autoUpdate',
             injectRegister: 'auto',
-            manifestFilename: 'manifest.webmanifest',
             devOptions: {
                 enabled: true
             },
@@ -26,25 +25,13 @@ export default defineConfig({
                 icons: [
                     {
                         src: 'images/pictures/circle.png',
-                        sizes: '1032x1036', // Actual image size matching
-                        type: 'image/png',
-                        purpose: 'any maskable'
-                    }
-                ],
-                screenshots: [
-                    {
-                        src: 'images/pictures/circle.png',
-                        sizes: '1032x1036',
-                        type: 'image/png',
-                        form_factor: 'wide',
-                        label: 'Desktop View'
+                        sizes: '192x192',
+                        type: 'image/png'
                     },
                     {
                         src: 'images/pictures/circle.png',
-                        sizes: '1032x1036',
-                        type: 'image/png',
-                        form_factor: 'narrow',
-                        label: 'Mobile View'
+                        sizes: '512x512',
+                        type: 'image/png'
                     }
                 ]
             }
