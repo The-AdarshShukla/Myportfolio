@@ -132,3 +132,40 @@ div.article-skills-item-description {
     margin-top: 2px;
     color: var(--theme-texts-light-4);
 }
+
+
+
+div.article-skills-item-progress {
+    margin-top: 6px;
+    height: 8px; // Thodi si height badhai hai taaki gradient achhe se visible ho
+    background-color: rgba(255, 255, 255, 0.05); // Subtly dark track background
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2); // Inner depth effect
+
+    .progress-bar {
+        height: 100%;
+        border-radius: 6px;
+        // Premium multi-stop gradient using your primary theme variable and vibrant accents
+        background: linear-gradient(90deg, var(--theme-primary), #6366f1, #a855f7);
+        background-size: 200% 100%;
+        
+        // Smooth fluid animation with modern cubic-bezier
+        transition: width 1.6s cubic-bezier(0.16, 1, 0.3, 1);
+        
+        // Soft glowing effect on the progress bar edge
+        box-shadow: 0 0 12px rgba(99, 102, 241, 0.4);
+    }
+}
+
+// Optional: Skill card hover effect for extra interactivity
+div.article-skills-item {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 8px;
+    padding: 8px;
+
+    &:hover {
+        transform: translateY(-2px);
+        background-color: rgba(255, 255, 255, 0.02); // Light backdrop glow on hover
+    }
+}

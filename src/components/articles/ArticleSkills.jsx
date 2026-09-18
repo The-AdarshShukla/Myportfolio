@@ -1,12 +1,12 @@
 import "./ArticleSkills.scss"
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import Article from "/src/components/articles/base/Article.jsx"
-import {useUtils} from "/src/hooks/utils.js"
+import { useUtils } from "/src/hooks/utils.js"
 import Collapsable from "/src/components/capabilities/Collapsable.jsx"
-import {useViewport} from "/src/providers/ViewportProvider.jsx"
-import {useConstants} from "/src/hooks/constants.js"
+import { useViewport } from "/src/providers/ViewportProvider.jsx"
+import { useConstants } from "/src/hooks/constants.js"
 import AvatarView from "/src/components/generic/AvatarView.jsx"
-import {useLocation} from "/src/providers/LocationProvider.jsx"
+import { useLocation } from "/src/providers/LocationProvider.jsx"
 import NumberAnimation from "/src/components/generic/NumberAnimation.jsx"
 
 /**
@@ -102,13 +102,11 @@ function ArticleSkillsItem({ itemWrapper }) {
 function ArticleSkillsItemInfo({ itemWrapper }) {
     const utils = useUtils()
     const location = useLocation()
+    const itemRef = useRef(null)
 
     const percentage = itemWrapper.percentage
-    const initialPercentage = location.getActiveSection()?.id === itemWrapper.articleWrapper.sectionId ?
-        percentage :
-        0
-
-    const [animationPercentage, setAnimationPercentage] = useState(initialPercentage)
+    const [animationPercentage, setAnimationPercentage] = useState(0)
+    const [hasAnimated, setHasAnimated] = useState(false)
 
     const level = itemWrapper.locales.level
     const description = itemWrapper.locales.text
@@ -119,27 +117,46 @@ function ArticleSkillsItemInfo({ itemWrapper }) {
 
     const progressStyle = {
         width: `${utils.string.toDisplayPercentage(animationPercentage)}`,
-        opacity: percentage ? 0.25 + percentage/75 : 0
+        opacity: percentage ? 0.25 + percentage / 75 : 0
     }
 
     let descriptionClass = `text-3`
-    if(percentage) descriptionClass = `text-2`
-    if(!experienceTime) descriptionClass += ` mt-1`
+    if (percentage) descriptionClass = `text-2`
+    if (!experienceTime) descriptionClass += ` mt-1`
 
+    // Scroll Observer for Advanced Professional Trigger
     useEffect(() => {
-        setAnimationPercentage(initialPercentage)
-    }, [location.getActiveSection()])
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting && !hasAnimated) {
+                    setAnimationPercentage(percentage || 0)
+                    setHasAnimated(true)
+                }
+            },
+            { threshold: 0.2 } // Trigger jab 20% element visible ho
+        )
+
+        if (itemRef.current) {
+            observer.observe(itemRef.current)
+        }
+
+        return () => {
+            if (itemRef.current) {
+                observer.unobserve(itemRef.current)
+            }
+        }
+    }, [percentage, hasAnimated])
 
     return (
-        <div className={`article-skills-item-info`}>
+        <div className={`article-skills-item-info`} ref={itemRef}>
             <div className={`article-skills-item-title text-5`}>
                 <div className={`article-skills-item-title-left-column`}>
                     <span className={`article-skills-item-title-main`}
-                          dangerouslySetInnerHTML={{__html: itemWrapper.locales.title || itemWrapper.placeholder}}/>
+                          dangerouslySetInnerHTML={{ __html: itemWrapper.locales.title || itemWrapper.placeholder }}/>
 
                     {displayLevel && (
                         <span className={`article-skills-item-title-suffix text-5`}
-                              dangerouslySetInnerHTML={{__html: displayLevel}}/>
+                              dangerouslySetInnerHTML={{ __html: displayLevel }}/>
                     )}
                 </div>
 
@@ -147,7 +164,7 @@ function ArticleSkillsItemInfo({ itemWrapper }) {
                     {percentage && (
                         <NumberAnimation className={`article-skills-item-title-percentage text-3`}
                                          id={`article-skills-item-title-percentage-${itemWrapper.uniqueId}`}
-                                         initialValue={initialPercentage}
+                                         initialValue={0}
                                          targetValue={animationPercentage}
                                          format={`{n}%`}/>
                     )}
@@ -167,16 +184,17 @@ function ArticleSkillsItemInfo({ itemWrapper }) {
 
             {experienceTime && (
                 <div className={`article-skills-item-experience text-2`}>
-                    <span dangerouslySetInnerHTML={{__html: experienceTime}}/>
+                    <span dangerouslySetInnerHTML={{ __html: experienceTime }}/>
                 </div>
             )}
 
             {description && (
                 <div className={`article-skills-item-description ${descriptionClass}`}
-                     dangerouslySetInnerHTML={{__html: itemWrapper.locales.text}}/>
+                     dangerouslySetInnerHTML={{ __html: itemWrapper.locales.text }}/>
             )}
         </div>
     )
 }
 
 export default ArticleSkills
+
