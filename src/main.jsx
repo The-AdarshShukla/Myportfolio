@@ -14,7 +14,6 @@ import FeedbacksProvider from "/src/providers/FeedbacksProvider.jsx"
 import InputProvider from "/src/providers/InputProvider.jsx"
 import NavigationProvider from "/src/providers/NavigationProvider.jsx"
 import Portfolio from "/src/components/Portfolio.jsx"
-import InstallPrompt from "/src/components/InstallPrompt.jsx" // 1. InstallPrompt Component Import Kiya Gaya Hai
 
 /** Initialization Script... **/
 let container = null
@@ -138,9 +137,9 @@ const AppCapabilitiesWrapper = ({ children }) => {
 
     return (
         <LanguageProvider supportedLanguages={supportedLanguages}
-                          defaultLanguageId={defaultLanguageId}
-                          appStrings={appStrings}
-                          selectedThemeId={selectedThemeId}>
+                         defaultLanguageId={defaultLanguageId}
+                         appStrings={appStrings}
+                         selectedThemeId={selectedThemeId}>
             <ViewportProvider>
                 <InputProvider>
                     <FeedbacksProvider canHaveAnimatedCursor={animatedCursorEnabled}>
@@ -154,9 +153,8 @@ const AppCapabilitiesWrapper = ({ children }) => {
                                                     categories={appCategories}>
                                     {children}
                                     
-                                    {/* 2. InstallPrompt Component Yahan Add Kar Diya Gaya Hai */}
-                                    <InstallPrompt />
-                                    
+                                  
+
                                 </NavigationProvider>
                             </LocationProvider>
                         </ThemeProvider>
